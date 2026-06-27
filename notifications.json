@@ -1,0 +1,9 @@
+[
+  {
+    "id": "summer-special",
+    "title": "Summer Specials Are Here!",
+    "body": "Check out new seasonal menus across the island.",
+    "triggerDate": "2026-07-01T10:00:00Z",
+    "category": "CONTENT_UPDATE"
+  }
+]
