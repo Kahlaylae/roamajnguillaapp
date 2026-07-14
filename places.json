@@ -1,165 +1,5 @@
 [
   {
-    "googleurl": "https://www.google.com/maps/place/Bohio+Bar+%26+Lounge/@18.2514213,-63.0393437,1304m/data=!3m1!1e3!4m6!3m5!1s0x8c0e636fdae51a63:0x5b8f5dda632a508!8m2!3d18.2521438!4d-63.0365923!16s%2Fg%2F11hyt6j3bs?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Bohio Bar & Lounge @ Zemi",
-    "label": "Food",
-    "type": "Bar",
-    "tags": "bar,restaurant,sushi,dinner, cocktail, cocktails, wine",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/bohio-bar-lounge/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2514213,
-    "longitude": -63.0393437,
-    "open": 16,
-    "closes": 23,
-    "closedon": "Open Daily",
-    "image": "zemi-bohiobar.jpg"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/Zemi+Beach+House,+LXR+Hotels+%26+Resorts/@18.2524417,-63.0387832,429m/data=!3m1!1e3!4m10!3m9!1s0x8c0e62c04a23e3b7:0x263c09669c7f1e11!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.2514162!4d-63.0367634!16s%2Fg%2F11cjj1r5m3?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Thai Spa House @ Zemi",
-    "label": "Wellness",
-    "type": "Spa",
-    "tags": "pool,massage,spa,facial",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/experiences/thai-house-spa/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2524417,
-    "longitude": -63.0387832,
-    "open": 10,
-    "closes": 18,
-    "closedon": "Available Daily by Appointment",
-    "image": ""
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/Stone/@18.2519669,-63.0392515,1064m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c0e636c8c31f011:0x2b638ba37bd5dd56!8m2!3d18.2519618!4d-63.0366712!16s%2Fg%2F11flzk_v_p?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Stone @ Zemi",
-    "label": "Food",
-    "type": "Restaurant",
-    "tags": "spa,pool,beach,bar,dinner, cocktail, cocktails, wine",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/stone/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2519669,
-    "longitude": -63.0392515,
-    "open": 18,
-    "closes": 22,
-    "closedon": "Open Thursday - Sunday",
-    "image": "zemi-stone.jpg"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/20+Knots/data=!4m7!3m6!1s0x8c0e63be86ab2247:0xa36091d0c0df7afc!8m2!3d18.2524351!4d-63.0369136!16s%2Fg%2F11hyt5xqyr!19sChIJRyKrhr5jDowR_HrfwNCRYKM?authuser=0&hl=en&rclk=1",
-    "title": "20 Knots @ Zemi",
-    "label": "Food",
-    "type": "Restaurant",
-    "tags": "order, takeout,familyfriendly,petfriendly,breakfast,lunch,dinner, cocktail, cocktails, wine",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/20-knots/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2524351,
-    "longitude": -63.0369136,
-    "open": 7,
-    "closes": 21.5,
-    "closedon": "Open Daily",
-    "image": "zemi-20knots.jpg"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/Q+Art+Gallery/@18.1899119,-63.1320634,19z/data=!4m18!1m7!3m6!1s0x8c0e67cffd495c8d:0xf8e43892d43ba523!2sJulian’s:+A+Tropical+French+Bistro!8m2!3d18.1897806!4d-63.1312853!16s%2Fg%2F11szr6b81g!3m9!1s0x8c0e67b2f5482d23:0x5480db96c0a449c6!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.1893513!4d-63.1312517!16s%2Fg%2F11j93k7r5p?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Quintessence Gallery",
-    "label": "Attraction",
-    "type": "Gallery",
-    "tags": "gallery,shop,boutique,souvenir",
-    "website": "https://qhotelanguilla.com/art-gallery/",
-    "phone": "+1 800-234-7468",
-    "location": "West End, Anguilla",
-    "latitude": 18.1899119,
-    "longitude": -63.1320634,
-    "open": "",
-    "closes": "",
-    "closedon": "",
-    "image": "beach.png"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/Quintessence+Hotel,+Relais+%26+Châteaux/@18.1899119,-63.1320634,19z/data=!4m18!1m7!3m6!1s0x8c0e67cffd495c8d:0xf8e43892d43ba523!2sJulian’s:+A+Tropical+French+Bistro!8m2!3d18.1897806!4d-63.1312853!16s%2Fg%2F11szr6b81g!3m9!1s0x8c0e6730dcaf8271:0x4e9b97dde76f69e3!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.1899807!4d-63.1315393!16s%2Fg%2F11g10gkzph?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Coral Beach Bar @ Quintessence",
-    "label": "Food",
-    "type": "Bar",
-    "tags": "bar,lunch,salads,asian,seafood,local,wraps,lobster,burgers,restaurant,wine,fine wine,mexican,bowls",
-    "website": "https://qhotelanguilla.com/dine/",
-    "phone": "+1 800-234-7468",
-    "location": "West End, Anguilla",
-    "latitude": 18.1899119,
-    "longitude": -63.1320634,
-    "open": "",
-    "closes": "",
-    "closedon": "Open Daily for Lunch",
-    "image": "bar.png"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/Bohio+Bar+%26+Lounge/@18.2514213,-63.0393437,1304m/data=!3m1!1e3!4m6!3m5!1s0x8c0e636fdae51a63:0x5b8f5dda632a508!8m2!3d18.2521438!4d-63.0365923!16s%2Fg%2F11hyt6j3bs?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Bohio Bar & Lounge @ Zemi",
-    "label": "Food",
-    "type": "Bar",
-    "tags": "bar,restaurant,sushi,dinner, cocktail, cocktails, wine",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/bohio-bar-lounge/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2514213,
-    "longitude": -63.0393437,
-    "open": 16,
-    "closes": 23,
-    "closedon": "Open Daily",
-    "image": "zemi-bohiobar.jpg"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/Zemi+Beach+House,+LXR+Hotels+%26+Resorts/@18.2524417,-63.0387832,429m/data=!3m1!1e3!4m10!3m9!1s0x8c0e62c04a23e3b7:0x263c09669c7f1e11!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.2514162!4d-63.0367634!16s%2Fg%2F11cjj1r5m3?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Thai Spa House @ Zemi",
-    "label": "Wellness",
-    "type": "Spa",
-    "tags": "pool,massage,spa,facial",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/experiences/thai-house-spa/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2524417,
-    "longitude": -63.0387832,
-    "open": 10,
-    "closes": 18,
-    "closedon": "Available Daily by Appointment",
-    "image": "wellness.jpg"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/Stone/@18.2519669,-63.0392515,1064m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c0e636c8c31f011:0x2b638ba37bd5dd56!8m2!3d18.2519618!4d-63.0366712!16s%2Fg%2F11flzk_v_p?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D",
-    "title": "Stone @ Zemi",
-    "label": "Food",
-    "type": "Restaurant",
-    "tags": "spa,pool,beach,bar,dinner, cocktail, cocktails, wine",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/stone/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2519669,
-    "longitude": -63.0392515,
-    "open": 18,
-    "closes": 22,
-    "closedon": "Open Thursday - Sunday",
-    "image": "zemi-stone.jpg"
-  },
-  {
-    "googleurl": "https://www.google.com/maps/place/20+Knots/data=!4m7!3m6!1s0x8c0e63be86ab2247:0xa36091d0c0df7afc!8m2!3d18.2524351!4d-63.0369136!16s%2Fg%2F11hyt5xqyr!19sChIJRyKrhr5jDowR_HrfwNCRYKM?authuser=0&hl=en&rclk=1",
-    "title": "20 Knots @ Zemi",
-    "label": "Food",
-    "type": "Restaurant",
-    "tags": "order, takeout,familyfriendly,petfriendly,breakfast,lunch,dinner, cocktail, cocktails, wine",
-    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/20-knots/",
-    "phone": "+1 264-584-0001",
-    "location": "Island Harbour, Anguilla",
-    "latitude": 18.2524351,
-    "longitude": -63.0369136,
-    "open": 7,
-    "closes": 21.5,
-    "closedon": "Open Daily",
-    "image": "zemi-20knots.jpg"
-  },
-  {
     "googleurl": "https://www.google.com/maps/place/18th+Century+Plantation+Historical+Plaque/data=!4m7!3m6!1s0x8c0e6300085e1bf1:0x617c3ac8f90cd77d!8m2!3d18.2188874!4d-63.0618447!16s%2Fg%2F11x0xl6c32!19sChIJ8RteCABjDowRfdcM-cg6fGE?authuser=0&hl=en&rclk=1",
     "title": "18th Century Plantation Historical Plaque",
     "label": "Attraction",
@@ -174,6 +14,22 @@
     "closes": "",
     "closedon": "",
     "image": "beach.png"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/20+Knots/data=!4m7!3m6!1s0x8c0e63be86ab2247:0xa36091d0c0df7afc!8m2!3d18.2524351!4d-63.0369136!16s%2Fg%2F11hyt5xqyr!19sChIJRyKrhr5jDowR_HrfwNCRYKM?authuser=0&hl=en&rclk=1",
+    "title": "20 Knots @ Zemi",
+    "label": "Food",
+    "type": "Restaurant",
+    "tags": "order, takeout,familyfriendly,petfriendly,breakfast,lunch,dinner, cocktail, cocktails, wine",
+    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/20-knots/",
+    "phone": "+1 264-584-0001",
+    "location": "Island Harbour, Anguilla",
+    "latitude": 18.2524351,
+    "longitude": -63.0369136,
+    "open": 7,
+    "closes": 21.5,
+    "closedon": "Open Daily",
+    "image": "zemi-20knots.jpg"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Albert+Lake+Marketplace/data=!4m7!3m6!1s0x8c0e63126a53c405:0xec19a50a08e5210!8m2!3d18.2160288!4d-63.0487742!16s%2Fg%2F11cn2m5bk7!19sChIJBcRTahJjDowREFKOoFCawQ4?authuser=0&hl=en&rclk=1",
@@ -205,7 +61,7 @@
     "open": 6,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Allister%E2%80%99s+Luxury+Taxi/data=!4m7!3m6!1s0x8c0e67cf42984c47:0x749c0afecc26f248!8m2!3d18.1715!4d-63.151313!16s%2Fg%2F11tpb7fcdn!19sChIJR0yYQs9nDowRSPImzP4KnHQ?authuser=0&hl=en&rclk=1",
@@ -221,7 +77,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/ALTA+FOODS/data=!4m7!3m6!1s0x8c0e7d6e89cd2d93:0xde473a076af8d40c!8m2!3d18.2560607!4d-63.0027767!16s%2Fg%2F11kk0w2q_p!19sChIJky3NiW59DowRDNT4agc6R94?authuser=0&hl=en&rclk=1",
@@ -269,7 +125,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "Open 24 Hours",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Andy%27s+Restaurant+%26+Bar/data=!4m7!3m6!1s0x8c0e63ff696fda9f:0xceb5efb501006215!8m2!3d18.2138084!4d-63.0494686!16s%2Fg%2F11fhw8c2m8!19sChIJn9pvaf9jDowRFWIAAbXvtc4?authuser=0&hl=en&rclk=1",
@@ -304,22 +160,6 @@
     "image": "beach.png"
   },
   {
-    "googleurl": "https://www.google.com/maps/place/Anguilla+Great+House+Beach+Resort/data=!4m10!3m9!1s0x8c0e66a02cbd78a3:0xda6dd94c8db12e64!5m2!4m1!1i2!8m2!3d18.1779121!4d-63.1116524!16s%2Fg%2F1yl46x62d!19sChIJo3i9LKBmDowRZC6xjUzZbdo?authuser=0&hl=en&rclk=1",
-    "title": "Coconuts Beachbar And Grill",
-    "label": "Food",
-    "type": "Bar",
-    "tags": "smoothies,bar,cocktails,beachbar,seafood,burgers,pizza,bbq,club,sandwiches",
-    "website": "https://anguillagreathouse.com/dining/",
-    "phone": "+1 264-497-6061",
-    "location": "West End, Anguilla",
-    "latitude": 18.1779121,
-    "longitude": -63.1116524,
-    "open": 0,
-    "closes": 0,
-    "closedon": "",
-    "image": "bar.png"
-  },
-  {
     "googleurl": "https://www.google.com/maps/place/Anguilla+Sands+and+Salts/data=!4m7!3m6!1s0x8c0e640ab973824b:0x23820290e7bc832b!8m2!3d18.1944509!4d-63.086132!16s%2Fg%2F11f2wc_nc_!19sChIJS4JzuQpkDowRK4O855ACgiM?authuser=0&hl=en&rclk=1",
     "title": "Anguilla Sands and Salts",
     "label": "Shops",
@@ -333,7 +173,7 @@
     "open": 10,
     "closes": 16,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Anguilla+Sunshine+Shop/data=!4m7!3m6!1s0x8c0e6579485e556f:0x63cfc02a38febdde!8m2!3d18.1819809!4d-63.0980536!16s%2Fg%2F11vwtgwq13!19sChIJb1VeSHllDowR3r3-OCrAz2M?authuser=0&hl=en&rclk=1",
@@ -349,7 +189,7 @@
     "open": 10,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Anguilla+Tours+and+Charters/data=!4m7!3m6!1s0x8303473510cc9d41:0x42784ba5591c50cc!8m2!3d18.1985009!4d-63.091392!16s%2Fg%2F11t8h8vx77!19sChIJQZ3MEDVHA4MRzFAcWaVLeEI?authuser=0&hl=en&rclk=1",
@@ -365,7 +205,7 @@
     "open": 8,
     "closes": 20,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Anguilla+Watersports/data=!4m7!3m6!1s0x8c0e669286acca99:0x2804f6a4c8ccd0b8!8m2!3d18.1702474!4d-63.1299186!16s%2Fg%2F11g6qdv6_4!19sChIJmcqshpJmDowRuNDMyKT2BCg?authuser=0&hl=en&rclk=1",
@@ -381,7 +221,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Anguilla%27s+Rum+%26+Reel+Boat+Charters+%26+Tours/data=!4m7!3m6!1s0x8c0e638ad92d6a09:0x85308981b60f4eed!8m2!3d18.2029169!4d-63.0868821!16s%2Fg%2F11hzsn5dws!19sChIJCWot2YpjDowR7U4PtoGJMIU?authuser=0&hl=en&rclk=1",
@@ -397,7 +237,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Anguillita+Island/data=!4m7!3m6!1s0x8c0e679425555afd:0xa24f45931cb747c2!8m2!3d18.15!4d-63.1833333!16s%2Fg%2F1tflt1jd!19sChIJ_VpVJZRnDowRwke3HJNFT6I?authuser=0&hl=en&rclk=1",
@@ -445,7 +285,7 @@
     "open": 17,
     "closes": 21.5,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Asian+Royale+Cuisine/data=!4m7!3m6!1s0x8c0e652522026c39:0x439782b36166d0fc!8m2!3d18.1890614!4d-63.1046951!16s%2Fg%2F11tn3w_d4j!19sChIJOWwCIiVlDowR_NBmYbOCl0M?authuser=0&hl=en&rclk=1",
@@ -461,7 +301,7 @@
     "open": 11,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Assurance+Car+Rental/data=!4m7!3m6!1s0x8c0e7d7b6003dca3:0xe79ba92a28b18fee!8m2!3d18.233361!4d-62.9966213!16s%2Fg%2F11k45ldw0w!19sChIJo9wDYHt9DowR7o-xKCqpm-c?authuser=0&hl=en&rclk=1",
@@ -477,7 +317,7 @@
     "open": 8,
     "closes": 18,
     "closedon": "Sunday 3PM - 6PM",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Atlantic+Star+Center+of+Medical+Excellence/data=!4m7!3m6!1s0x8c0e640afb5a0d5d:0x31b9c1fa8755a071!8m2!3d18.1938676!4d-63.0876819!16s%2Fg%2F11bbvplx93!19sChIJXQ1a-wpkDowRcaBVh_rBuTE?authuser=0&hl=en&rclk=1",
@@ -493,7 +333,7 @@
     "open": 8.5,
     "closes": 17,
     "closedon": "Saturday, Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Auntie+Dol+Bay/data=!4m7!3m6!1s0x8c0e6343823ea0c9:0x3dbf3e9c8e2c933a!8m2!3d18.2023005!4d-63.0331545!16s%2Fg%2F1tmxxmr7!19sChIJyaA-gkNjDowROpMsjpw-vz0?authuser=0&hl=en&rclk=1",
@@ -541,7 +381,7 @@
     "open": 8.5,
     "closes": 17,
     "closedon": "Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/B+%26+D%27s+BBQ/data=!4m7!3m6!1s0x8c0e67c5c20b8fad:0x772ba1edb4f6b976!8m2!3d18.1874413!4d-63.1286983!16s%2Fg%2F11ght9h3t1!19sChIJrY8LwsVnDowRdrn2tO2hK3c?authuser=0&hl=en&rclk=1",
@@ -557,7 +397,7 @@
     "open": 12,
     "closes": 21,
     "closedon": "Open Weekends Only",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Backyard+Vibez/data=!4m7!3m6!1s0x8c0e630018381875:0xc517a81737d7fd1a!8m2!3d18.2134486!4d-63.0334255!16s%2Fg%2F11x13vr48g!19sChIJdRg4GABjDowRGv3XNxeoF8U?authuser=0&hl=en&rclk=1",
@@ -573,7 +413,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Bamboo+Bar+%26+Grill/data=!4m7!3m6!1s0x8c0e66e617be274f:0x3f96b4158764166d!8m2!3d18.1792863!4d-63.1435023!16s%2Fg%2F11b7015kcd!19sChIJTye-F-ZmDowRbRZkhxW0lj8?authuser=0&hl=en&rclk=1",
@@ -608,6 +448,22 @@
     "image": "bankie.jpg"
   },
   {
+    "googleurl": "https://www.google.com/maps/place/Malliouhana/@18.1876741,-63.1369342,17.72z/data=!4m14!1m2!2m1!1smalliouhana+bar+soleil!3m10!1s0x8c0e66c73b19eea1:0x88435dcf39795f57!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.1876457!4d-63.134498!15sChZtYWxsaW91aGFuYSBiYXIgc29sZWlsWhgiFm1hbGxpb3VoYW5hIGJhciBzb2xlaWySAQVob3RlbJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyczBlRmt5ZURCbFJXUkhVMVJhUW1Wc1ZUTlNNR2hNVVZkR1ExVnJSUkFC4AEA-gEECFoQNA!16s%2Fg%2F1yl48dd20?entry=ttu&g_ep=EgoyMDI2MDcxMi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "Bar Soleil & Terrace @ Malliouhana",
+    "label": "Food",
+    "type": "Bar",
+    "tags": "bar,restaurant,fine dining, fine wine, wine,mexican,brunch,dinner,lunch,burgers,wraps,tapas,seafood,salads,wraps,burgers,dessert,rum",
+    "website": "https://malliouhana.com/dine/bar-soleil/",
+    "phone": "+1 844-815-9207",
+    "location": "West End, Anguilla",
+    "latitude": 18.1876741,
+    "longitude": -63.1369342,
+    "open": 11,
+    "closes": 23,
+    "closedon": "Open Daily , Food Available 12pm - 9pm",
+    "image": "bar.png"
+  },
+  {
     "googleurl": "https://www.google.com/maps/place/Barnes+Bay/data=!4m7!3m6!1s0x8c0e66e255209003:0xeaf6cdf6cf592edd!8m2!3d18.1751281!4d-63.1521234!16s%2Fg%2F1hhw6rlb7!19sChIJA5AgVeJmDowR3S5Zz_bN9uo?authuser=0&hl=en&rclk=1",
     "title": "Barnes Bay",
     "label": "Attraction",
@@ -637,7 +493,7 @@
     "open": 8,
     "closes": 17,
     "closedon": "Sunday 9am - 5pm",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Bath+House/data=!4m7!3m6!1s0x8c0e67682691d7bb:0xf4994b2a9a795194!8m2!3d18.1715!4d-63.151313!16s%2Fg%2F11wq8zh4qv!19sChIJu9eRJmhnDowRlFF5mipLmfQ?authuser=0&hl=en&rclk=1",
@@ -653,7 +509,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Be+Organic+Salon+Spa/data=!4m7!3m6!1s0x8c0e650034c34017:0xcb3c9f2a1f4d5f08!8m2!3d18.1893648!4d-63.1045209!16s%2Fg%2F11y4xvcy9k!19sChIJF0DDNABlDowRCF9NHyqfPMs?authuser=0&hl=en&rclk=1",
@@ -669,7 +525,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Beach+Happy/data=!4m7!3m6!1s0x8c0e65d8f05e4fa9:0x868c5de485f8a419!8m2!3d18.1747252!4d-63.0939128!16s%2Fg%2F11rn6__5v6!19sChIJqU9e8NhlDowRGaT4heRdjIY?authuser=0&hl=en&rclk=1",
@@ -685,7 +541,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Until 6pm Saturdays, Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Beach+With+Staircase+-+Public+Access/data=!4m7!3m6!1s0x8c0e6700223744b5:0xc2de70133f84f2e0!8m2!3d18.1681254!4d-63.1631064!16s%2Fg%2F11vz0537t6!19sChIJtUQ3IgBnDowR4PKEPxNw3sI?authuser=0&hl=en&rclk=1",
@@ -717,7 +573,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Bedneys+Well/data=!4m7!3m6!1s0x8c0e6799462a11dd:0xb65bd459c593a56e!8m2!3d18.1834685!4d-63.1280248!16s%2Fg%2F11sc7sl9vm!19sChIJ3REqRplnDowRbqWTxVnUW7Y?authuser=0&hl=en&rclk=1",
@@ -781,7 +637,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/BEST+PRICE+CAR+RENTAL+And+Bike+rental/data=!4m7!3m6!1s0x8c0e67ea42c5d909:0x3276c030d79dc5d4!8m2!3d18.1706068!4d-63.1490772!16s%2Fg%2F11fr8bv7r_!19sChIJCdnFQupnDowR1MWd1zDAdjI?authuser=0&hl=en&rclk=1",
@@ -797,7 +653,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Bijoux/data=!4m7!3m6!1s0x8c0e63ebb6d3d613:0xde2f3f7f193be065!8m2!3d18.199846!4d-63.089854!16s%2Fg%2F11h60ls337!19sChIJE9bTtutjDowRZeA7GX8_L94?authuser=0&hl=en&rclk=1",
@@ -813,7 +669,7 @@
     "open": 9,
     "closes": 19,
     "closedon": "Sunday 11am - 4pm",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Black+Garden+Bay/data=!4m7!3m6!1s0x8c0e63cc45c028df:0x78a86f1acf204667!8m2!3d18.236994!4d-63.0661677!16s%2Fg%2F11pw537249!19sChIJ3yjARcxjDowRZ0YgzxpvqHg?authuser=0&hl=en&rclk=1",
@@ -861,7 +717,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Blolly+Ham+Bay/data=!4m7!3m6!1s0x8c0e67fda6871321:0x6af9cdeb4e0d8838!8m2!3d18.1623573!4d-63.1726532!16s%2Fg%2F11fn9hggn1!19sChIJIROHpv1nDowROIgNTuvN-Wo?authuser=0&hl=en&rclk=1",
@@ -893,7 +749,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Blue+Rey+Lyn/data=!4m7!3m6!1s0x8c0e63b0d64c5573:0x52850335b109cfdc!8m2!3d18.2419591!4d-63.0318626!16s%2Fg%2F11shqb1zvw!19sChIJc1VM1rBjDowR3M8JsTUDhVI?authuser=0&hl=en&rclk=1",
@@ -909,7 +765,23 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/Bohio+Bar+%26+Lounge/@18.2514213,-63.0393437,1304m/data=!3m1!1e3!4m6!3m5!1s0x8c0e636fdae51a63:0x5b8f5dda632a508!8m2!3d18.2521438!4d-63.0365923!16s%2Fg%2F11hyt6j3bs?entry=ttu&g_ep=EgoyMDI2MDYyOC4wIKXMDSoASAFQAw%3D%3D",
+    "title": "Bohio Bar & Lounge @ Zemi",
+    "label": "Food",
+    "type": "Bar",
+    "tags": "bar,restaurant,sushi,dinner, cocktail, cocktails, wine",
+    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/bohio-bar-lounge/",
+    "phone": "+1 264-584-0001",
+    "location": "Island Harbour, Anguilla",
+    "latitude": 18.2514213,
+    "longitude": -63.0393437,
+    "open": 16,
+    "closes": 23,
+    "closedon": "Open Daily",
+    "image": "zemi-bohiobar.jpg"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Bolly+Ham+Bay/data=!4m7!3m6!1s0x8c0e67a6ddeee8cb:0x8f4ce82fba834a3b!8m2!3d18.1623573!4d-63.1726532!16s%2Fg%2F1tmpfzt1!19sChIJy-ju3aZnDowRO0qDui_oTI8?authuser=0&hl=en&rclk=1",
@@ -941,7 +813,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Bryans+Car+Rentals/data=!4m7!3m6!1s0x8c0e643c5305e415:0xbf14f673657c5313!8m2!3d18.1726745!4d-63.0931268!16s%2Fg%2F11d_713npm!19sChIJFeQFUzxkDowRE1N8ZXP2FL8?authuser=0&hl=en&rclk=1",
@@ -957,7 +829,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Calypso+Charters+Anguilla/data=!4m7!3m6!1s0x8c0e643c4155bebf:0xd3a6733f56916f8a!8m2!3d18.171512!4d-63.093132!16s%2Fg%2F11clsthhxf!19sChIJv75VQTxkDowRim-RVj9zptM?authuser=0&hl=en&rclk=1",
@@ -973,7 +845,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Cap+Juluca+Spa+by+Guerlain/data=!4m7!3m6!1s0x8c0e6777fca32ea5:0x2cf4c598a5e1e51a!8m2!3d18.164783!4d-63.1417091!16s%2Fg%2F11wnvd0399!19sChIJpS6j_HdnDowRGuXhpZjF9Cw?authuser=0&hl=en&rclk=1",
@@ -989,7 +861,7 @@
     "open": 10,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Captains+Bay+Beach/data=!4m7!3m6!1s0x8c0e7d00135869c1:0x20aeec85591d36ed!8m2!3d18.2642715!4d-62.979536!16s%2Fg%2F11vwfrgtxl!19sChIJwWlYEwB9DowR7TYdWYXsriA?authuser=0&hl=en&rclk=1",
@@ -1021,7 +893,7 @@
     "open": 8.5,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Caribbean+Silk+Screen/data=!4m7!3m6!1s0x8c0e636826d24a1d:0x67769126175c3327!8m2!3d18.1976333!4d-63.0823013!16s%2Fg%2F11j8lcmm7v!19sChIJHUrSJmhjDowRJzNcFyaRdmc?authuser=0&hl=en&rclk=1",
@@ -1037,7 +909,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Cartlon+Smith/data=!4m7!3m6!1s0x8c0e6370cb565ce7:0x7dcff239c57ec8e4!8m2!3d18.2148129!4d-63.0574406!16s%2Fg%2F11t5jg6s07!19sChIJ51xWy3BjDowR5Mh-xTnyz30?authuser=0&hl=en&rclk=1",
@@ -1053,7 +925,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/CeeJay%E2%80%99s+Beauty+Bar/data=!4m7!3m6!1s0x8c0e7dddcb2750f7:0xb5b03ef73b261829!8m2!3d18.2530881!4d-63.0104684!16s%2Fg%2F11w2_12g9l!19sChIJ91Any919DowRKRgmO_c-sLU?authuser=0&hl=en&rclk=1",
@@ -1069,7 +941,7 @@
     "open": 10,
     "closes": 18,
     "closedon": "Closed Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Celeste+by+Kerth+Gumbs/data=!4m7!3m6!1s0x8c0e67b2a585a4a5:0x1920afc5f6838711!8m2!3d18.1876291!4d-63.1348825!16s%2Fg%2F11swkk8vjz!19sChIJpaSFpbJnDowREYeD9sWvIBk?authuser=0&hl=en&rclk=1",
@@ -1084,7 +956,7 @@
     "longitude": -63.1348825,
     "open": 7,
     "closes": 21,
-    "closedon": "Closed 11am - 6pm",
+    "closedon": "Open Daily, Closed 11am - 6pm",
     "image": "celeste.jpg"
   },
   {
@@ -1101,7 +973,7 @@
     "open": 8,
     "closes": 16,
     "closedon": "Closed Saturday, Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Chan-Boo%E2%80%99s/data=!4m7!3m6!1s0x8c0e63ed79952187:0x6f56a6e4842689fd!8m2!3d18.2149129!4d-63.0539908!16s%2Fg%2F11sdq58d3v!19sChIJhyGVee1jDowR_YkmhOSmVm8?authuser=0&hl=en&rclk=1",
@@ -1133,7 +1005,7 @@
     "open": 9,
     "closes": 24,
     "closedon": "Open Daily",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Chef+B+Restaurant+%26Bar/data=!4m7!3m6!1s0x8c0e63846c4844ef:0x1ffa530591198ae7!8m2!3d18.2190998!4d-63.0586058!16s%2Fg%2F11y3ck6jkl!19sChIJ70RIbIRjDowR54oZkQVT-h8?authuser=0&hl=en&rclk=1",
@@ -1149,7 +1021,7 @@
     "open": 18,
     "closes": 22,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Chef%27s+Table/data=!4m7!3m6!1s0x8c0e67085628f9e9:0x2b34a589f806e1a0!8m2!3d18.1776188!4d-63.1168911!16s%2Fg%2F11pz7b8062!19sChIJ6fkoVghnDowRoOEG-ImlNCs?authuser=0&hl=en&rclk=1",
@@ -1197,7 +1069,7 @@
     "open": 8,
     "closes": 18,
     "closedon": "Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Coconos+Restaurant/data=!4m7!3m6!1s0x8c0e653164062893:0xd6100dfda9a3c9d2!8m2!3d18.176448!4d-63.0936684!16s%2Fg%2F11g4g4g14z!19sChIJkygGZDFlDowR0smjqf0NENY?authuser=0&hl=en&rclk=1",
@@ -1214,6 +1086,38 @@
     "closes": 1,
     "closedon": "",
     "image": "coconos.jpg"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/Anguilla+Great+House+Beach+Resort/data=!4m10!3m9!1s0x8c0e66a02cbd78a3:0xda6dd94c8db12e64!5m2!4m1!1i2!8m2!3d18.1779121!4d-63.1116524!16s%2Fg%2F1yl46x62d!19sChIJo3i9LKBmDowRZC6xjUzZbdo?authuser=0&hl=en&rclk=1",
+    "title": "Coconuts Beachbar And Grill",
+    "label": "Food",
+    "type": "Bar",
+    "tags": "smoothies,bar,cocktails,beachbar,seafood,burgers,pizza,bbq,club,sandwiches",
+    "website": "https://anguillagreathouse.com/dining/",
+    "phone": "+1 264-497-6061",
+    "location": "West End, Anguilla",
+    "latitude": 18.1779121,
+    "longitude": -63.1116524,
+    "open": 0,
+    "closes": 0,
+    "closedon": "",
+    "image": "bar.png"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/Quintessence+Hotel,+Relais+%26+Châteaux/@18.1899119,-63.1320634,19z/data=!4m18!1m7!3m6!1s0x8c0e67cffd495c8d:0xf8e43892d43ba523!2sJulian’s:+A+Tropical+French+Bistro!8m2!3d18.1897806!4d-63.1312853!16s%2Fg%2F11szr6b81g!3m9!1s0x8c0e6730dcaf8271:0x4e9b97dde76f69e3!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.1899807!4d-63.1315393!16s%2Fg%2F11g10gkzph?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
+    "title": "Coral Beach Bar @ Quintessence",
+    "label": "Food",
+    "type": "Bar",
+    "tags": "bar,lunch,salads,asian,seafood,local,wraps,lobster,burgers,restaurant,wine,fine wine,mexican,bowls",
+    "website": "https://qhotelanguilla.com/dine/",
+    "phone": "+1 800-234-7468",
+    "location": "West End, Anguilla",
+    "latitude": 18.1899119,
+    "longitude": -63.1320634,
+    "open": "",
+    "closes": "",
+    "closedon": "Open Daily for Lunch",
+    "image": "bar.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Corito+Bay/data=!4m7!3m6!1s0x8c0e648173c298b1:0x6b1665dc4013dc99!8m2!3d18.188161!4d-63.0567047!16s%2Fg%2F1tm8lmp6!19sChIJsZjCc4FkDowRmdwTQNxlFms?authuser=0&hl=en&rclk=1",
@@ -1325,7 +1229,7 @@
     "open": 7,
     "closes": 22,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/D%27+Pura+Salon/data=!4m7!3m6!1s0x8c0e63135f72ded1:0x45db9a4fbd0f8a77!8m2!3d18.2136038!4d-63.0378605!16s%2Fg%2F11g6qyh92q!19sChIJ0d5yXxNjDowRd4oPvU-a20U?authuser=0&hl=en&rclk=1",
@@ -1341,7 +1245,7 @@
     "open": 16,
     "closes": 8,
     "closedon": "7am - 4pm Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/D%27BBQ+HUT/data=!4m7!3m6!1s0x8c0e630029cb9d49:0x9ac8e9339c67d96f!8m2!3d18.2058759!4d-63.0619672!16s%2Fg%2F11lcrbh2x5!19sChIJSZ3LKQBjDowRb9lnnDPpyJo?authuser=0&hl=en&rclk=1",
@@ -1357,7 +1261,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/D%E2%80%99Isreal+Bar+%26+Grill/data=!4m7!3m6!1s0x8c0e7d68cabb875f:0x9074e01e38cbe5e6!8m2!3d18.2295806!4d-63.0129698!16s%2Fg%2F11h1094hb8!19sChIJX4e7ymh9DowR5uXLOB7gdJA?authuser=0&hl=en&rclk=1",
@@ -1389,7 +1293,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Da%27Vida/data=!4m7!3m6!1s0x8c0e63bcffffffff:0xaec8e05f61717f0e!8m2!3d18.2204086!4d-63.0667933!16s%2Fg%2F11h1j4w7r!19sChIJ_____7xjDowRDn9xYV_gyK4?authuser=0&hl=en&rclk=1",
@@ -1405,7 +1309,7 @@
     "open": 7.5,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Dames/data=!4m7!3m6!1s0x8c0e630025dcffd5:0xc28b8f31fb5aa718!8m2!3d18.2028802!4d-63.0400301!16s%2Fg%2F11w4m61gzt!19sChIJ1f_cJQBjDowRGKda-zGPi8I?authuser=0&hl=en&rclk=1",
@@ -1421,7 +1325,7 @@
     "open": 11,
     "closes": 23,
     "closedon": "Closed Monday Tuesday Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Dancing+Bear+Restaurant+and+Bar/data=!4m7!3m6!1s0x8c0e63b5ea747013:0xdc32658f80b68159!8m2!3d18.1976175!4d-63.0806444!16s%2Fg%2F11twjdyv1f!19sChIJE3B06rVjDowRWYG2gI9lMtw?authuser=0&hl=en&rclk=1",
@@ -1437,7 +1341,7 @@
     "open": 16,
     "closes": 21,
     "closedon": "Closed Sunday, Monday. Until 10.50pm Friday, Saturday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Dead+Man%E2%80%99s+Cay/data=!4m7!3m6!1s0x8c0e87001663d665:0x5b7922a39ddd309!8m2!3d18.294597!4d-62.9298417!16s%2Fg%2F11vxpl7bbs!19sChIJZdZjFgCHDowRCdPdOSqStwU?authuser=0&hl=en&rclk=1",
@@ -1469,7 +1373,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Dolce+Vita/data=!4m7!3m6!1s0x8c0e63f43a8f9b39:0x6302a72996392c38!8m2!3d18.200091!4d-63.0904149!16s%2Fg%2F11cn96pty5!19sChIJOZuPOvRjDowROCw5limnAmM?authuser=0&hl=en&rclk=1",
@@ -1485,7 +1389,7 @@
     "open": 18,
     "closes": 21.5,
     "closedon": "Closed Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Dream+Baby+Store/data=!4m7!3m6!1s0x8c0e65f1d00a955f:0x3654670fa995129b!8m2!3d18.1779451!4d-63.0937497!16s%2Fg%2F11pkrxjnb_!19sChIJX5UK0PFlDowRmxKVqQ9nVDY?authuser=0&hl=en&rclk=1",
@@ -1501,7 +1405,7 @@
     "open": 10,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Drip+Nails+by+Dess/data=!4m7!3m6!1s0x8c0e63a6a9cb0b5b:0x27b14e757ed7a62e!8m2!3d18.2292994!4d-63.0436294!16s%2Fg%2F11txclvlss!19sChIJWwvLqaZjDowRLqbXfnVOsSc?authuser=0&hl=en&rclk=1",
@@ -1517,7 +1421,7 @@
     "open": 17.5,
     "closes": 22,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/DUNGEON+GYM+AND+FITNESS+CENTRE/data=!4m7!3m6!1s0x8c0e641d361adaef:0x319216a0e5f9441!8m2!3d18.1879295!4d-63.1074566!16s%2Fg%2F11d_79ysn2!19sChIJ79oaNh1kDowRQZRfDmohGQM?authuser=0&hl=en&rclk=1",
@@ -1533,7 +1437,7 @@
     "open": 16.5,
     "closes": 21.5,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Dyetastikally.Made/data=!4m7!3m6!1s0x8c0e63ceca562f5f:0x711f34002ea7bf!8m2!3d18.2067428!4d-63.066136!16s%2Fg%2F11q21q3xk_!19sChIJXy9Wys5jDowRv6cuADQfcQA?authuser=0&hl=en&rclk=1",
@@ -1549,7 +1453,7 @@
     "open": 8,
     "closes": 21,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/E%E2%80%99s+Oven/data=!4m7!3m6!1s0x8c0e65b6e1a1967f:0xdd962e5d0f2339fd!8m2!3d18.1942707!4d-63.0865905!16s%2Fg%2F11h23_62g9!19sChIJf5ah4bZlDowR_TkjD10ult0?authuser=0&hl=en&rclk=1",
@@ -1565,7 +1469,7 @@
     "open": 12,
     "closes": 21.5,
     "closedon": "Closed 12pm - 2:45pm, Closed Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Eagle%27s+Wings/data=!4m7!3m6!1s0x8c0e63d0024efb87:0x53ead8bb3257b8c8!8m2!3d18.2043087!4d-63.0780492!16s%2Fg%2F11q27kw04y!19sChIJh_tOAtBjDowRyLhXMrvY6lM?authuser=0&hl=en&rclk=1",
@@ -1581,7 +1485,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Eat+Slow+Feed+Long/data=!4m7!3m6!1s0x8c0e63929ab1daaf:0x7a9c6e570382510a!8m2!3d18.2070652!4d-63.0832329!16s%2Fg%2F11gg4h4kd9!19sChIJr9qxmpJjDowRClGCA1dunHo?authuser=0&hl=en&rclk=1",
@@ -1597,7 +1501,7 @@
     "open": 12,
     "closes": 20,
     "closedon": "Open Friday, Saturday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Elements+Boutique+Anguilla/data=!4m7!3m6!1s0x8c0e635d0f960cd9:0xcb3f89a7fc66eea1!8m2!3d18.2130934!4d-63.0538748!16s%2Fg%2F11pb0mjfc0!19sChIJ2QyWD11jDowRoe5m_KeJP8s?authuser=0&hl=en&rclk=1",
@@ -1613,7 +1517,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://maps.app.goo.gl/ZB2xep6zpPsiJ4LX9",
@@ -1629,7 +1533,7 @@
     "open": 4.5,
     "closes": 22.5,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Elodias+Beach+Bar/data=!4m7!3m6!1s0x8c0e62ba32dc71f1:0x184d48bf700bcab9!8m2!3d18.2560277!4d-63.0290248!16s%2Fg%2F11c2k27f0r!19sChIJ8XHcMrpiDowRucoLcL9ITRg?authuser=0&hl=en&rclk=1",
@@ -1645,7 +1549,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Elsa%E2%80%99s+Restaurant/data=!4m7!3m6!1s0x8c0e7d436a182153:0x6fa41bdfa647f73d!8m2!3d18.2571507!4d-62.9959501!16s%2Fg%2F11gfh8y00y!19sChIJUyEYakN9DowRPfdHpt8bpG8?authuser=0&hl=en&rclk=1",
@@ -1661,7 +1565,7 @@
     "open": 12,
     "closes": 21,
     "closedon": "Closed Sunday, Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Elsie+Bay/data=!4m7!3m6!1s0x8c0e647dd837dd1b:0x5fe6386f8336da18!8m2!3d18.1865481!4d-63.0640646!16s%2Fg%2F1tdmr2kj!19sChIJG9032H1kDowRGNo2g2845l8?authuser=0&hl=en&rclk=1",
@@ -1709,7 +1613,7 @@
     "open": 11.5,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/English+Rose/data=!4m7!3m6!1s0x8c0e630cdf4733e3:0x5d4585f72a9d1321!8m2!3d18.2137332!4d-63.0534635!16s%2Fg%2F11csr5299v!19sChIJ4zNH3wxjDowRIROdKveFRV0?authuser=0&hl=en&rclk=1",
@@ -1725,7 +1629,7 @@
     "open": 10,
     "closes": 20,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Enhanced+By+Manda/data=!4m7!3m6!1s0x8c0e638c194f1a4b:0x177c7cb3d1cb7f4c!8m2!3d18.1996415!4d-63.0770934!16s%2Fg%2F11t9t72vvl!19sChIJSxpPGYxjDowRTH_L0bN8fBc?authuser=0&hl=en&rclk=1",
@@ -1741,7 +1645,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Epic+Foods+Delivery+%26+Catering+AXA/data=!4m7!3m6!1s0x8c0e67521c34d38b:0xa5502a6807d7e6ac!8m2!3d18.1774489!4d-63.1378361!16s%2Fg%2F11kdtktdj6!19sChIJi9M0HFJnDowRrObXB2gqUKU?authuser=0&hl=en&rclk=1",
@@ -1757,7 +1661,7 @@
     "open": 11,
     "closes": 21,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Ethnic+Lounge/data=!4m7!3m6!1s0x8c0e63dc148206b5:0xfcb088679150aa5d!8m2!3d18.1874632!4d-63.1073558!16s%2Fg%2F11st9f5258!19sChIJtQaCFNxjDowRXapQkWeIsPw?authuser=0&hl=en&rclk=1",
@@ -1773,7 +1677,7 @@
     "open": 18,
     "closes": 23,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Fairly%27s+Car+Rental/data=!4m7!3m6!1s0x8c0e63ddaa74127f:0x68c3b36582bfe1be!8m2!3d18.2057684!4d-63.0614202!16s%2Fg%2F11h1fpynbq!19sChIJfxJ0qt1jDowRvuG_gmWzw2g?authuser=0&hl=en&rclk=1",
@@ -1789,7 +1693,7 @@
     "open": 8,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Falcon+Nest+Bar+%26+Grill/data=!4m7!3m6!1s0x8c0e7d5547ebbfe9:0x9aa01afcff50925d!8m2!3d18.2561615!4d-63.0017088!16s%2Fg%2F11h0y2gmtl!19sChIJ6b_rR1V9DowRXZJQ__waoJo?authuser=0&hl=en&rclk=1",
@@ -1805,7 +1709,7 @@
     "open": 12,
     "closes": 21,
     "closedon": "Closed Sunday, Thursday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Fish+Shack+%26+Grill/data=!4m7!3m6!1s0x8c0e652eb7b1b54f:0x3f99ae8dc04ab486!8m2!3d18.179256!4d-63.0938176!16s%2Fg%2F11mv0m3vn1!19sChIJT7Wxty5lDowRhrRKwI2umT8?authuser=0&hl=en&rclk=1",
@@ -1821,7 +1725,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/FitDish+Axa/data=!4m7!3m6!1s0x8c0e63749527aaa7:0x56fb691c2e8a23a5!8m2!3d18.2118124!4d-63.0389732!16s%2Fg%2F11hcj1s42f!19sChIJp6onlXRjDowRpSOKLhxp-1Y?authuser=0&hl=en&rclk=1",
@@ -1837,7 +1741,7 @@
     "open": 7,
     "closes": 13,
     "closedon": "Closed Saturday, Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Flavours+Restaurant/data=!4m7!3m6!1s0x8c0e6528dfd18703:0xc872f6f095de1f70!8m2!3d18.1938543!4d-63.0943565!16s%2Fg%2F11ght9dth5!19sChIJA4fR3yhlDowRcB_elfD2csg?authuser=0&hl=en&rclk=1",
@@ -1853,7 +1757,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Forest+Bay/data=!4m7!3m6!1s0x8c0e6363b1fa653b:0xb68e4022a122823d!8m2!3d18.1939817!4d-63.0456652!16s%2Fg%2F1ts1npfv!19sChIJO2X6sWNjDowRPYIioSJAjrY?authuser=0&hl=en&rclk=1",
@@ -1917,7 +1821,7 @@
     "open": 8.5,
     "closes": 19,
     "closedon": "Until 2.50pm Sunday, Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Friends+Restaurant/data=!4m7!3m6!1s0x8c0e638a2fa5e0a1:0x73f97dc0ff3b2734!8m2!3d18.2027041!4d-63.0716778!16s%2Fg%2F11qqvyvgtl!19sChIJoeClL4pjDowRNCc7_8B9-XM?authuser=0&hl=en&rclk=1",
@@ -1933,7 +1837,7 @@
     "open": 11.5,
     "closes": 21.5,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Fruity+Web/data=!4m7!3m6!1s0x8c0e6312ee7074db:0x34ac01ac1266511d!8m2!3d18.2140302!4d-63.0482718!16s%2Fg%2F11d_bh8tqp!19sChIJ23Rw7hJjDowRHVFmEqwBrDQ?authuser=0&hl=en&rclk=1",
@@ -1949,7 +1853,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Funtime+Boat+Charters/data=!4m7!3m6!1s0x8c0e65eaa96ae67b:0xebe3e43ad731d58f!8m2!3d18.1714336!4d-63.0931126!16s%2Fg%2F11khc4sqx1!19sChIJe-ZqqeplDowRj9Ux1zrk4-s?authuser=0&hl=en&rclk=1",
@@ -1965,7 +1869,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/GAB%27s+Party+Essentials/data=!4m7!3m6!1s0x8c0e631c34a3e995:0xfe88cdad5896b936!8m2!3d18.2306354!4d-63.0453375!16s%2Fg%2F11g70vvv2x!19sChIJlemjNBxjDowRNrmWWK3NiP4?authuser=0&hl=en&rclk=1",
@@ -1981,7 +1885,7 @@
     "open": 9,
     "closes": 17.5,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Glam+Boutique/data=!4m7!3m6!1s0x8c0e640690000001:0x4e5a43d2ad2d504a!8m2!3d18.1934509!4d-63.1008682!16s%2Fg%2F11d_8rzyx1!19sChIJAQAAkAZkDowRSlAtrdJDWk4?authuser=0&hl=en&rclk=1",
@@ -1997,7 +1901,7 @@
     "open": 9,
     "closes": 18.5,
     "closedon": "From 12:15 - 6.50pm Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Go+Local/data=!4m7!3m6!1s0x8c0e6554c39c09b1:0x74de60911e8a4597!8m2!3d18.1797881!4d-63.0941462!16s%2Fg%2F11h5vymzz6!19sChIJsQmcw1RlDowRl0WKHpFg3nQ?authuser=0&hl=en&rclk=1",
@@ -2013,7 +1917,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Gold+Dragon+Chinese+Restaurant/data=!4m7!3m6!1s0x8c0e7d245df9cdcf:0xd96b1762117d1127!8m2!3d18.2324987!4d-62.9991051!16s%2Fg%2F1tlvqkxj!19sChIJz835XSR9DowRJxF9EWIXa9k?authuser=0&hl=en&rclk=1",
@@ -2029,7 +1933,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Good+Korma+The+Islands+Curry+House/data=!4m7!3m6!1s0x8c0e643d83b5daeb:0x517420ad089aa353!8m2!3d18.2146577!4d-63.0535398!16s%2Fg%2F11fxdzj646!19sChIJ69q1gz1kDowRU6OaCK0gdFE?authuser=0&hl=en&rclk=1",
@@ -2045,7 +1949,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Gotcha!+Garfield%27s+Sea+Tours/data=!4m7!3m6!1s0x8c0e631f2cdf8c63:0x1e85075f0ca82bb2!8m2!3d18.201319!4d-63.090488!16s%2Fg%2F11y8z3yxj0!19sChIJY4zfLB9jDowRsiuoDF8HhR4?authuser=0&hl=en&rclk=1",
@@ -2061,7 +1965,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Grilled+Spot+BBQ/data=!4m7!3m6!1s0x8c0e658719d690a1:0x81c7ec0b6462152b!8m2!3d18.177762!4d-63.0934767!16s%2Fg%2F11j09_r6wq!19sChIJoZDWGYdlDowRKxViZAvsx4E?authuser=0&hl=en&rclk=1",
@@ -2093,7 +1997,7 @@
     "open": 8,
     "closes": 18,
     "closedon": "Sunday Closed",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Gwen%27s+Reggae+Bar+and+Grill/data=!4m7!3m6!1s0x8c0e62b7732ba913:0xf88954a368875e23!8m2!3d18.2529201!4d-63.0345649!16s%2Fg%2F11h1bvq5t!19sChIJE6krc7diDowRI16HaKNUifg?authuser=0&hl=en&rclk=1",
@@ -2109,7 +2013,7 @@
     "open": 11,
     "closes": 19,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/H+%26+R+Car+Rental/data=!4m7!3m6!1s0x8c0e63733aea1223:0xf50cbd6262eca46f!8m2!3d18.2121214!4d-63.053799!16s%2Fg%2F11dymb8j55!19sChIJIxLqOnNjDowRb6TsYmK9DPU?authuser=0&hl=en&rclk=1",
@@ -2125,7 +2029,7 @@
     "open": 11,
     "closes": 17.5,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/H%26M+Car+Rental/data=!4m7!3m6!1s0x8c0e650e2518b1e5:0xd887958096ab5d5d!8m2!3d18.1930849!4d-63.0880073!16s%2Fg%2F11v9kvh0t4!19sChIJ5bEYJQ5lDowRXV2rloCVh9g?authuser=0&hl=en&rclk=1",
@@ -2141,7 +2045,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "2pm - 6pm Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Hank%27s/data=!4m7!3m6!1s0x8c0e62b8b0f606dd:0xce2b5c95fa2fd905!8m2!3d18.2505258!4d-63.0339432!16s%2Fg%2F11c3znrjc9!19sChIJ3Qb2sLhiDowRBdkv-pVcK84?authuser=0&hl=en&rclk=1",
@@ -2157,7 +2061,7 @@
     "open": 8,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Hertz/data=!4m7!3m6!1s0x8c0e653c65fcaddf:0x3f3b5d1af144b6a7!8m2!3d18.194586!4d-63.08183!16s%2Fg%2F11flkccbg9!19sChIJ3638ZTxlDowRp7ZE8RpdOz8?authuser=0&hl=en&rclk=1",
@@ -2173,7 +2077,7 @@
     "open": 8,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Hertz+Dollar+Firefly+Anguilla/data=!4m7!3m6!1s0x8c0e63b811c1c9e1:0xd791ccc546e1d9fb!8m2!3d18.2067812!4d-63.0498972!16s%2Fg%2F11vkbptmpv!19sChIJ4cnBEbhjDowR-9nhRsXMkdc?authuser=0&hl=en&rclk=1",
@@ -2189,7 +2093,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Hibernia+Restaurant+%26+Art+Gallery/data=!4m7!3m6!1s0x8c0e7d434999777f:0xa2a4e4958b5ad61c!8m2!3d18.2581936!4d-62.9956963!16s%2Fg%2F11g_pb70x!19sChIJf3eZSUN9DowRHNZai5XkpKI?authuser=0&hl=en&rclk=1",
@@ -2205,7 +2109,7 @@
     "open": 18.5,
     "closes": 20.5,
     "closedon": "Open 12pm - 1.50pm Tuesday, Friday. Closed Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Hit+The+Spot+Tapas+Bar,+Restaurant+%26+Lounge/data=!4m7!3m6!1s0x8c0e63b486dbfe2d:0xc9a8421d8820945e!8m2!3d18.2041867!4d-63.067467!16s%2Fg%2F11n146x8gl!19sChIJLf7bhrRjDowRXpQgiB1CqMk?authuser=0&hl=en&rclk=1",
@@ -2221,7 +2125,7 @@
     "open": 17,
     "closes": 0,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Hughes+Medical+Centre/data=!4m7!3m6!1s0x8c0e66a637f5689d:0xa00feec752f515a2!8m2!3d18.187813!4d-63.1126437!16s%2Fg%2F119wt5hp9!19sChIJnWj1N6ZmDowRohX1UsfuD6A?authuser=0&hl=en&rclk=1",
@@ -2237,7 +2141,7 @@
     "open": 8,
     "closes": 17,
     "closedon": "Closed Saturday, Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Hungry%E2%80%99s+Restaurant+and+Fish+Depot/data=!4m7!3m6!1s0x8c0e6373089b2ee5:0x8725f052505e095a!8m2!3d18.2096922!4d-63.0538018!16s%2Fg%2F1hdz8dc5z!19sChIJ5S6bCHNjDowRWgleUFLwJYc?authuser=0&hl=en&rclk=1",
@@ -2253,7 +2157,7 @@
     "open": 9,
     "closes": 22,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/ILLUSIONS+TRESS+COLLECTION/data=!4m7!3m6!1s0x8c0e639d483e5ba3:0x9126ec6766d5cc93!8m2!3d18.204026!4d-63.063252!16s%2Fg%2F11cp5j84ld!19sChIJo1s-SJ1jDowRk8zVZmfsJpE?authuser=0&hl=en&rclk=1",
@@ -2269,7 +2173,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Irie+Life/data=!4m7!3m6!1s0x8c0e638b6dd8757f:0x4adf5e385108f4b3!8m2!3d18.1937969!4d-63.0938273!16s%2Fg%2F11cn313hsb!19sChIJf3XYbYtjDowRs_QIUThe30o?authuser=0&hl=en&rclk=1",
@@ -2285,7 +2189,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Island+Angler/data=!4m7!3m6!1s0x8c0e7db3219fd49d:0x1c9ea350397de3e3!8m2!3d18.2558969!4d-63.009607!16s%2Fg%2F11wq04bwpg!19sChIJndSfIbN9DowR4-N9OVCjnhw?authuser=0&hl=en&rclk=1",
@@ -2301,7 +2205,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Island+Bar/data=!4m7!3m6!1s0x8c0e7d2804a7740b:0x9c14c11ccf2bdebf!8m2!3d18.2567369!4d-63.0072568!16s%2Fg%2F11sf407115!19sChIJC3SnBCh9DowRv94rzxzBFJw?authuser=0&hl=en&rclk=1",
@@ -2333,7 +2237,7 @@
     "open": 8,
     "closes": 17,
     "closedon": "Until 12pm Sunday,Closed Saturday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/J+n+J%E2%80%99s+Pizza+Hut/data=!4m7!3m6!1s0x8c0e63583173cc7d:0x2874584049d9579e!8m2!3d18.1941803!4d-63.0860205!16s%2Fg%2F11h9kt6kjz!19sChIJfcxzMVhjDowRnlfZSUBYdCg?authuser=0&hl=en&rclk=1",
@@ -2349,7 +2253,7 @@
     "open": 18,
     "closes": 23,
     "closedon": "Closed Monday, Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Jacala+Beach+Restaurant/data=!4m7!3m6!1s0x8c0e67d32504399d:0xa683f610d9bdf8c8!8m2!3d18.1840214!4d-63.1358871!16s%2Fg%2F11h29s2prx!19sChIJnTkEJdNnDowRyPi92RD2g6Y?authuser=0&hl=en&rclk=1",
@@ -2365,7 +2269,7 @@
     "open": 12,
     "closes": 21,
     "closedon": "Closed 2pm - 6.50pm,Closed Monday, Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Jahmaykan+Flavaz+Restaurant+%26+Bar/data=!4m7!3m6!1s0x8c0e631f0f75bdaf:0x8faea56f9ca14913!8m2!3d18.2161543!4d-63.0479702!16s%2Fg%2F11v3_51v8d!19sChIJr711Dx9jDowRE0mhnG-lro8?authuser=0&hl=en&rclk=1",
@@ -2381,7 +2285,7 @@
     "open": 7,
     "closes": 16.5,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Janvel%27s+Boutique/data=!4m7!3m6!1s0x8c0e658c48186fb7:0xbe749ba6f605ef2a!8m2!3d18.1782901!4d-63.094119!16s%2Fg%2F11fq0f72np!19sChIJt28YSIxlDowRKu8F9qabdL4?authuser=0&hl=en&rclk=1",
@@ -2397,7 +2301,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Jelly+BBQ+-+Local+Food,BBQ+and+Natural+Drinks/data=!4m7!3m6!1s0x8c0e633d54e666a7:0x18bb177b93e2a01!8m2!3d18.2037101!4d-63.0681297!16s%2Fg%2F11jp169_qd!19sChIJp2bmVD1jDowRASo-uXexiwE?authuser=0&hl=en&rclk=1",
@@ -2413,7 +2317,7 @@
     "open": 11.5,
     "closes": 22,
     "closedon": "Closed Monday, Tuesday, Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Jepun+Bali+Massage+Center+%26+Spa/data=!4m7!3m6!1s0x8c0e6533e7d9d3b5:0xaae792dc3fa33256!8m2!3d18.1872437!4d-63.1079007!16s%2Fg%2F11t4ycnrb4!19sChIJtdPZ5zNlDowRVjKjP9yS56o?authuser=0&hl=en&rclk=1",
@@ -2429,7 +2333,7 @@
     "open": 8,
     "closes": 19,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Johnno%27s/data=!4m7!3m6!1s0x8c0e63f3e3c98c23:0xff8fbcb521900f3!8m2!3d18.2016672!4d-63.0904782!16s%2Fg%2F11csr3qkt_!19sChIJI4zJ4_NjDowR8wAZUsv7-A8?authuser=0&hl=en&rclk=1",
@@ -2445,7 +2349,7 @@
     "open": 11,
     "closes": 18,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Julian%E2%80%99s:+A+Tropical+French+Bistro/data=!4m7!3m6!1s0x8c0e67cffd495c8d:0xf8e43892d43ba523!8m2!3d18.1897806!4d-63.1312853!16s%2Fg%2F11szr6b81g!19sChIJjVxJ_c9nDowRI6U71JI45Pg?authuser=0&hl=en&rclk=1",
@@ -2461,7 +2365,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Junie%27s+Car+Rental/data=!4m7!3m6!1s0x8c0e653bb61331b9:0xf2d777a35cb06845!8m2!3d18.1885088!4d-63.0906036!16s%2Fg%2F11h64hcnyj!19sChIJuTETtjtlDowRRWiwXKN31_I?authuser=0&hl=en&rclk=1",
@@ -2477,7 +2381,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Junie%27s+Car+Rental+Main+Office+-+Blowing+Point+Rd./data=!4m7!3m6!1s0x8c0e65f9919e307f:0xed220eb94c7d195e!8m2!3d18.1716346!4d-63.0932176!16s%2Fg%2F11h6g7gzpn!19sChIJfzCekfllDowRXhl9TLkOIu0?authuser=0&hl=en&rclk=1",
@@ -2493,7 +2397,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Kady%27s+Beauty+Salon/data=!4m7!3m6!1s0x8c0e634107aa0357:0xe8dd7fbb255757d5!8m2!3d18.2148129!4d-63.0574406!16s%2Fg%2F11tj_04qzt!19sChIJVwOqB0FjDowR1VdXJbt_3eg?authuser=0&hl=en&rclk=1",
@@ -2509,7 +2413,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Kaiyla%27s+Pizzar/data=!4m7!3m6!1s0x8c0e7d5972833581:0xa7ce6235ddf7d89c!8m2!3d18.2334778!4d-62.9981532!16s%2Fg%2F11p5f3kpvz!19sChIJgTWDcll9DowRnNj33TVizqc?authuser=0&hl=en&rclk=1",
@@ -2525,7 +2429,7 @@
     "open": 18,
     "closes": 21,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Kaja%E2%80%99s+Restaurant/data=!4m7!3m6!1s0x8c0e63a9d6db854f:0x2c959f6cf2bc9e05!8m2!3d18.2148714!4d-63.053944!16s%2Fg%2F11hdsrwgs4!19sChIJT4Xb1qljDowRBZ688myflSw?authuser=0&hl=en&rclk=1",
@@ -2541,7 +2445,7 @@
     "open": 7,
     "closes": 21,
     "closedon": "From 9am Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Kani+Fitness+studio/@18.1999042,-63.0775489,17z/data=!3m1!4b1!4m6!3m5!1s0x8c0e634e2292b0df:0x9227027386f2d901!8m2!3d18.1999042!4d-63.0775489!16s%2Fg%2F11flbf1yp9?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
@@ -2557,7 +2461,7 @@
     "open": 5,
     "closes": 19,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Katouche+Bay/data=!4m7!3m6!1s0x8c0e6397748da807:0x84916581ef4626e4!8m2!3d18.2131058!4d-63.0749583!16s%2Fg%2F11fy5xjnys!19sChIJB6iNdJdjDowR5CZG74FlkYQ?authuser=0&hl=en&rclk=1",
@@ -2605,7 +2509,7 @@
     "open": 11.5,
     "closes": 22,
     "closedon": "Closed Sunday, Monday, Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Kizzy%27s+Fashion+Attire/data=!4m7!3m6!1s0x8c0e63195937515b:0x700341e2b512e81e!8m2!3d18.2148129!4d-63.0574406!16s%2Fg%2F11y5z84h25!19sChIJW1E3WRljDowRHugSteJBA3A?authuser=0&hl=en&rclk=1",
@@ -2621,7 +2525,7 @@
     "open": 10,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Krav+Maga+Anguilla/data=!4m7!3m6!1s0x8c0e63d8961f9363:0x61207d4aecc528f4!8m2!3d18.2033437!4d-63.0711085!16s%2Fg%2F11rjqwnvw3!19sChIJY5MflthjDowR9CjF7Ep9IGE?authuser=0&hl=en&rclk=1",
@@ -2637,7 +2541,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/La+Severine+Fitness+And+Massage+Services/data=!4m7!3m6!1s0x8c0e637313c4e9db:0x54251032fbc24596!8m2!3d18.1722838!4d-63.1469266!16s%2Fg%2F11csr0x98x!19sChIJ2-nEE3NjDowRlkXC-zIQJVQ?authuser=0&hl=en&rclk=1",
@@ -2653,7 +2557,7 @@
     "open": 5,
     "closes": 22,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/La+Vue+Boutique+Inn/data=!4m10!3m9!1s0x8c0e6408f3f0f247:0xb6a1e2218a2c7e59!5m2!4m1!1i2!8m2!3d18.1938125!4d-63.0941875!16s%2Fg%2F1hdztgyy3!19sChIJR_Lw8whkDowRWX4siiHiobY?authuser=0&hl=en&rclk=1",
@@ -2669,7 +2573,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Le+Bon+Pain/data=!4m7!3m6!1s0x8c0e7d7486be6b5f:0x7fc48743dc41a6fc!8m2!3d18.2559318!4d-63.0085716!16s%2Fg%2F11gy2zpj_l!19sChIJX2u-hnR9DowR_KZB3EOHxH8?authuser=0&hl=en&rclk=1",
@@ -2685,7 +2589,7 @@
     "open": 7,
     "closes": 11,
     "closedon": "Closed Thursday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Lea+Beauty+Center/data=!4m7!3m6!1s0x8c0e63afba191f09:0xec91cb1942830103!8m2!3d18.2118765!4d-63.054229!16s%2Fg%2F11sw6jlmvq!19sChIJCR8Zuq9jDowRAwGDQhnLkew?authuser=0&hl=en&rclk=1",
@@ -2701,7 +2605,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Leah%27s+Locs/data=!4m7!3m6!1s0x8c0e630b40000001:0xdfa9bc6e19c3e9bb!8m2!3d18.2292384!4d-63.0339307!16s%2Fg%2F11hbv8w9vb!19sChIJAQAAQAtjDowRu-nDGW68qd8?authuser=0&hl=en&rclk=1",
@@ -2717,7 +2621,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Leon%27s+at+Malliouhana/data=!4m7!3m6!1s0x8c0e67d93ba25885:0xcf3e74f6d51477be!8m2!3d18.1857083!4d-63.1345546!16s%2Fg%2F11fr622kv9!19sChIJhViiO9lnDowRvncU1fZ0Ps8?authuser=0&hl=en&rclk=1",
@@ -2733,7 +2637,7 @@
     "open": 11,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Lighthouse+Chinese+Restaurant/data=!4m7!3m6!1s0x8c0e64091633b09b:0x81a7d7c86a18ddae!8m2!3d18.1930494!4d-63.0933076!16s%2Fg%2F1hdyz4xsm!19sChIJm7AzFglkDowRrt0YasjXp4E?authuser=0&hl=en&rclk=1",
@@ -2749,7 +2653,7 @@
     "open": 8,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Lime+Keel+House/data=!4m7!3m6!1s0x8c0e7def78d76add:0xa02ab0c62a715a7c!8m2!3d18.2576196!4d-62.9961464!16s%2Fg%2F11h6ycxt_7!19sChIJ3WrXeO99DowRfFpxKsawKqA?authuser=0&hl=en&rclk=1",
@@ -2765,7 +2669,7 @@
     "open": 9,
     "closes": 13,
     "closedon": "From 5pm Friday, Monday, Tuesday,Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Limestone+Bay/data=!4m7!3m6!1s0x8c0e6351097898c7:0x4c1dc22ff78da021!8m2!3d18.2336857!4d-63.0698269!16s%2Fg%2F11sd5m7hkr!19sChIJx5h4CVFjDowRIaCN9y_CHUw?authuser=0&hl=en&rclk=1",
@@ -2813,7 +2717,7 @@
     "open": 18.5,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Little+Bay/data=!4m7!3m6!1s0x8c0e63108d7af12b:0x5b7a7cb3a94a27b6!8m2!3d18.2279967!4d-63.068276!16s%2Fg%2F11fjmfgtq8!19sChIJK_F6jRBjDowRtidKqbN8els?authuser=0&hl=en&rclk=1",
@@ -2861,7 +2765,7 @@
     "open": 18,
     "closes": 21,
     "closedon": "Closed Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/LockRum+Bay/data=!4m7!3m6!1s0x8c0e646f4325eb93:0x584e540b572b3e7a!8m2!3d18.1785724!4d-63.074369!16s%2Fg%2F1tfkm6h9!19sChIJk-slQ29kDowRej4rVwtUTlg?authuser=0&hl=en&rclk=1",
@@ -2893,7 +2797,7 @@
     "open": 10,
     "closes": 18,
     "closedon": "Closed Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Long+Bay+Beach/data=!4m7!3m6!1s0x8c0e673c5d49c68f:0x5322d02cdb8aa9c3!8m2!3d18.1912547!4d-63.1261527!16s%2Fg%2F11t803bl2c!19sChIJj8ZJXTxnDowRw6mK2yzQIlM?authuser=0&hl=en&rclk=1",
@@ -2957,7 +2861,7 @@
     "open": 8,
     "closes": 22,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Malakh+Day+Spa/data=!4m7!3m6!1s0x8c0e6310ff36bc01:0x72b8b8b707832437!8m2!3d18.2558896!4d-63.0289184!16s%2Fg%2F11h5_yk77b!19sChIJAbw2_xBjDowRNySDB7e4uHI?authuser=0&hl=en&rclk=1",
@@ -2973,7 +2877,7 @@
     "open": 10,
     "closes": 17,
     "closedon": "Closed Saturday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Mango%27s+Seaside+Grill/data=!4m7!3m6!1s0x8c0e66e30432d6c5:0x7fa0ab94d55f2422!8m2!3d18.1751435!4d-63.1497698!16s%2Fg%2F1hhjwcf5q!19sChIJxdYyBONmDowRIiRf1ZSroH8?authuser=0&hl=en&rclk=1",
@@ -2989,7 +2893,7 @@
     "open": 18.5,
     "closes": 21,
     "closedon": "Closed Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Maundays+Bay/data=!4m7!3m6!1s0x8c0e66f81297cb69:0x885a81d40eca6135!8m2!3d18.1619637!4d-63.1450408!16s%2Fg%2F1tkjm75m!19sChIJacuXEvhmDowRNWHKDtSBWog?authuser=0&hl=en&rclk=1",
@@ -3053,7 +2957,7 @@
     "open": 8,
     "closes": 10.5,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Merrywing+Bay/data=!4m7!3m6!1s0x8c0e668dd4dcb03f:0xd7c6dfb37670b95d!8m2!3d18.1670862!4d-63.1270025!16s%2Fg%2F1tfm7psr!19sChIJP7Dc1I1mDowRXblwdrPfxtc?authuser=0&hl=en&rclk=1",
@@ -3101,7 +3005,7 @@
     "open": 11,
     "closes": 22,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Mini+Lisa+Bath+and/data=!4m7!3m6!1s0x8c0e63da8c7bac15:0x7b7447b8432a7525!8m2!3d18.2167502!4d-63.0483059!16s%2Fg%2F11qq27nq_4!19sChIJFax7jNpjDowRJXUqQ7hHdHs?authuser=0&hl=en&rclk=1",
@@ -3117,7 +3021,7 @@
     "open": 9,
     "closes": 17.5,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/MIRABELLE'S/@18.2000026,-63.0761236,17z/data=!3m1!4b1!4m6!3m5!1s0x8c0e632af108883f:0xb4903991cc65eab3!8m2!3d18.2000026!4d-63.0761236!16s%2Fg%2F11rhdcwzwv?authuser=0&hl=en&entry=ttu&g_ep=EgoyMDI1MDQwMi4xIKXMDSoASAFQAw%3D%3D",
@@ -3133,7 +3037,7 @@
     "open": 18,
     "closes": 23,
     "closedon": "Closed Tuesday, Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/MOMMAS+KITCHEN/data=!4m7!3m6!1s0x8c0e65000f1887e7:0x1cb2991621c95954!8m2!3d18.1940371!4d-63.0865706!16s%2Fg%2F11lckp5z_p!19sChIJ54cYDwBlDowRVFnJIRaZshw?authuser=0&hl=en&rclk=1",
@@ -3149,7 +3053,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Nails+R+Hair+Salon/data=!4m7!3m6!1s0x8c0e6399c6de623b:0x604e2b2a3cc6c91d!8m2!3d18.2169903!4d-63.0485485!16s%2Fg%2F11rwzcvdvv!19sChIJO2LexpljDowRHcnGPCorTmA?authuser=0&hl=en&rclk=1",
@@ -3165,7 +3069,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "Closed Sunday, Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Nature+boy/data=!4m7!3m6!1s0x8c0e7ddb51b80fd3:0xd7440d53ba7d258f!8m2!3d18.2563649!4d-63.0015643!16s%2Fg%2F11fph8t_0g!19sChIJ0w-4Udt9DowRjyV9ulMNRNc?authuser=0&hl=en&rclk=1",
@@ -3181,7 +3085,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Netty%27s+BBQ/data=!4m7!3m6!1s0x8c0e63004b91b14d:0x7c7f086f44292e5d!8m2!3d18.2104729!4d-63.053417!16s%2Fg%2F11wc0f508q!19sChIJTbGRSwBjDowRXS4pRG8If3w?authuser=0&hl=en&rclk=1",
@@ -3197,7 +3101,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Nick%E2%80%99s+Pizza/data=!4m7!3m6!1s0x8c0e65101505f7c7:0x66272681d0b3fb4c!8m2!3d18.1777253!4d-63.0982741!16s%2Fg%2F11sb5bv5hr!19sChIJx_cFFRBlDowRTPuz0IEmJ2Y?authuser=0&hl=en&rclk=1",
@@ -3213,7 +3117,7 @@
     "open": 18,
     "closes": 22,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Nicole%27s+Restaurant/data=!4m7!3m6!1s0x8c0e637310e9c5a9:0x4a93d1434519308c!8m2!3d18.2111252!4d-63.0538838!16s%2Fg%2F11c6cqz90g!19sChIJqcXpEHNjDowRjDAZRUPRk0o?authuser=0&hl=en&rclk=1",
@@ -3229,7 +3133,7 @@
     "open": 8,
     "closes": 16,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Nikhil%E2%80%99s+Department+Store/data=!4m7!3m6!1s0x8c0e637d2e24eb65:0x33698656a626e485!8m2!3d18.2132909!4d-63.0539006!16s%2Fg%2F11t5swj6hq!19sChIJZeskLn1jDowRheQmplaGaTM?authuser=0&hl=en&rclk=1",
@@ -3245,7 +3149,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Occasions/data=!4m7!3m6!1s0x8c0e63f338dde757:0x3d331346461824b4!8m2!3d18.2118767!4d-63.0542287!16s%2Fg%2F11h4kxt105!19sChIJV-fdOPNjDowRtCQYRkYTMz0?authuser=0&hl=en&rclk=1",
@@ -3261,7 +3165,7 @@
     "open": 9,
     "closes": 17.5,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Ocean+Echo+Anguilla/data=!4m7!3m6!1s0x8c0e66e9a8cff49d:0x8e0679cd63b803a3!8m2!3d18.1798649!4d-63.1406868!16s%2Fg%2F1pty85jc_!19sChIJnfTPqOlmDowRowO4Y815Bo4?authuser=0&hl=en&rclk=1",
@@ -3277,7 +3181,7 @@
     "open": 11,
     "closes": 22,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Oishi+Delicious+Asian+Kitchen/data=!4m7!3m6!1s0x8c0e63aabe1dd41d:0x39e8cde2c8f346c6!8m2!3d18.2128718!4d-63.0421782!16s%2Fg%2F11fp1vxgpn!19sChIJHdQdvqpjDowRxkbzyOLN6Dk?authuser=0&hl=en&rclk=1",
@@ -3293,7 +3197,7 @@
     "open": 12,
     "closes": 21,
     "closedon": "Closed Saturday, Open 1pm - 9pm Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Olas+tacos/data=!4m7!3m6!1s0x8c0e638997d28ad3:0x723ad97ba5ff4160!8m2!3d18.2543863!4d-63.0315227!16s%2Fg%2F11h93vm_54!19sChIJ04rSl4ljDowRYEH_pXvZOnI?authuser=0&hl=en&rclk=1",
@@ -3309,7 +3213,7 @@
     "open": 10,
     "closes": 18.5,
     "closedon": "Open Daily",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Old+Boys%27+School/data=!4m7!3m6!1s0x8c0e637787ed269b:0xb24f27a378d489a5!8m2!3d18.2135945!4d-63.052458!16s%2Fg%2F11rzggjzp8!19sChIJmybth3djDowRpYnUeKMnT7I?authuser=0&hl=en&rclk=1",
@@ -3341,7 +3245,7 @@
     "open": 7,
     "closes": 22,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Oliva/data=!4m7!3m6!1s0x8c0e6730c0f1b71d:0x6b239d1319e4e037!8m2!3d18.1715613!4d-63.1261421!16s%2Fg%2F11rq87xshk!19sChIJHbfxwDBnDowRN-DkGROdI2s?authuser=0&hl=en&rclk=1",
@@ -3357,7 +3261,7 @@
     "open": 7,
     "closes": 22,
     "closedon": "Until 11am Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Olympus+Chauffeur+Services/data=!4m7!3m6!1s0x8c0e671db0d7cca9:0xd71b2b3628002bb9!8m2!3d18.1818368!4d-63.1267054!16s%2Fg%2F11vwrz10mx!19sChIJqczXsB1nDowRuSsAKDYrG9c?authuser=0&hl=en&rclk=1",
@@ -3373,7 +3277,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Open+Seas+Charters+Anguilla/data=!4m7!3m6!1s0x8c0e63d8e6e99063:0x482b9bf081deea78!8m2!3d18.2014805!4d-63.0905228!16s%2Fg%2F11h_4p0qkm!19sChIJY5Dp5thjDowReOregfCbK0g?authuser=0&hl=en&rclk=1",
@@ -3389,7 +3293,7 @@
     "open": 9,
     "closes": 19,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Palm+Grove+Barbeque+Grill/data=!4m7!3m6!1s0x8c0e7d6eac8614b1:0x8b7fc58ea3410f0c!8m2!3d18.2518884!4d-62.9851609!16s%2Fg%2F1pzqqt_5m!19sChIJsRSGrG59DowRDA9Bo47Ff4s?authuser=0&hl=en&rclk=1",
@@ -3405,7 +3309,7 @@
     "open": 11,
     "closes": 16,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Paper%27s+BBQ/data=!4m7!3m6!1s0x8c0e7d4b0d20b867:0xb9998321431733df!8m2!3d18.2351128!4d-62.9979713!16s%2Fg%2F11l6fn9vtw!19sChIJZ7ggDUt9DowR3zMXQyGDmbk?authuser=0&hl=en&rclk=1",
@@ -3421,7 +3325,7 @@
     "open": 17,
     "closes": 21,
     "closedon": "Closed Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Pelican+Bay/data=!4m7!3m6!1s0x8c0e6440358499cf:0x6a041928e45004fb!8m2!3d18.1717349!4d-63.0832017!16s%2Fg%2F1vn19klq!19sChIJz5mENUBkDowR-wRQ5CgZBGo?authuser=0&hl=en&rclk=1",
@@ -3453,7 +3357,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Picante/data=!4m7!3m6!1s0x8c0e66fb2f568c61:0xc065f1016bdb3d3c!8m2!3d18.1719918!4d-63.1476624!16s%2Fg%2F11cn93fr3p!19sChIJYYxWL_tmDowRPD3bawHxZcA?authuser=0&hl=en&rclk=1",
@@ -3469,7 +3373,7 @@
     "open": 18,
     "closes": 21,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Pimms/data=!4m7!3m6!1s0x8c0e67092b268745:0x86130b01f6b2caa0!8m2!3d18.1637173!4d-63.1418656!16s%2Fg%2F11h2hdx450!19sChIJRYcmKwlnDowRoMqy9gELE4Y?authuser=0&hl=en&rclk=1",
@@ -3485,7 +3389,7 @@
     "open": 18,
     "closes": 21.5,
     "closedon": "Closed Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Pizza+King/data=!4m7!3m6!1s0x8c0e63110cb9f8f3:0x19b9ab6727bb57f0!8m2!3d18.2146314!4d-63.0539832!16s%2Fg%2F11fhnl73yt!19sChIJ8_i5DBFjDowR8Fe7J2eruRk?authuser=0&hl=en&rclk=1",
@@ -3501,7 +3405,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Plumeria+Balinese+Spa/data=!4m7!3m6!1s0x8c0e6741217a5d5b:0x5414e428c41e80d1!8m2!3d18.1801959!4d-63.1397273!16s%2Fg%2F11j12pl8mq!19sChIJW116IUFnDowR0YAexCjkFFQ?authuser=0&hl=en&rclk=1",
@@ -3517,7 +3421,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Polished_by_DD/data=!4m7!3m6!1s0x8c0e6374a99ea875:0xf52f7ff6b00cbda4!8m2!3d18.2126265!4d-63.0603656!16s%2Fg%2F11j65s0sqn!19sChIJdaieqXRjDowRpL0MsPZ_L_U?authuser=0&hl=en&rclk=1",
@@ -3533,7 +3437,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Pope+Bbq/data=!4m7!3m6!1s0x8c0e67001e7b2d69:0x38efbae9b6d84384!8m2!3d18.1769643!4d-63.1453739!16s%2Fg%2F11wj74j0ps!19sChIJaS17HgBnDowRhEPYtum67zg?authuser=0&hl=en&rclk=1",
@@ -3549,7 +3453,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Prestige+1st+Stop/data=!4m7!3m6!1s0x8c0e63d4b83e404d:0xf70bc64af43cab4d!8m2!3d18.2135581!4d-63.0563796!16s%2Fg%2F11n8p351y6!19sChIJTUA-uNRjDowRTas89ErGC_c?authuser=0&hl=en&rclk=1",
@@ -3565,7 +3469,7 @@
     "open": 9,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Prickly+Pear+Bar+%2B+Restaurant/data=!4m7!3m6!1s0x8c0e614053ea13a1:0x122bd15cedd23b6a!8m2!3d18.2642591!4d-63.1722422!16s%2Fg%2F11h6lty4rz!19sChIJoRPqU0BhDowRajvS7VzRKxI?authuser=0&hl=en&rclk=1",
@@ -3581,7 +3485,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Princess+Alexandra+Hospital/data=!4m7!3m6!1s0x8c0e63104c86d249:0x2af0bdfdb56defa4!8m2!3d18.2203721!4d-63.048057!16s%2Fg%2F11h1s9m6t4!19sChIJSdKGTBBjDowRpO9ttf298Co?authuser=0&hl=en&rclk=1",
@@ -3597,7 +3501,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/QPJ+Canopy+-+Governor%E2%80%99s+Office/data=!4m7!3m6!1s0x8c0e632036cf7269:0x30956a742154be29!8m2!3d18.2083611!4d-63.0696579!16s%2Fg%2F11k9dhjjtq!19sChIJaXLPNiBjDowRKb5UIXRqlTA?authuser=0&hl=en&rclk=1",
@@ -3725,7 +3629,23 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/Q+Art+Gallery/@18.1899119,-63.1320634,19z/data=!4m18!1m7!3m6!1s0x8c0e67cffd495c8d:0xf8e43892d43ba523!2sJulian’s:+A+Tropical+French+Bistro!8m2!3d18.1897806!4d-63.1312853!16s%2Fg%2F11szr6b81g!3m9!1s0x8c0e67b2f5482d23:0x5480db96c0a449c6!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.1893513!4d-63.1312517!16s%2Fg%2F11j93k7r5p?entry=ttu&g_ep=EgoyMDI2MDcwOC4wIKXMDSoASAFQAw%3D%3D",
+    "title": "Quintessence Gallery",
+    "label": "Attraction",
+    "type": "Gallery",
+    "tags": "gallery,shop,boutique,souvenir",
+    "website": "https://qhotelanguilla.com/art-gallery/",
+    "phone": "+1 800-234-7468",
+    "location": "West End, Anguilla",
+    "latitude": 18.1899119,
+    "longitude": -63.1320634,
+    "open": "",
+    "closes": "",
+    "closedon": "",
+    "image": "beach.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/R%26C+flavour/data=!4m7!3m6!1s0x8c0e638dd1101743:0xe6a6b8961b784a22!8m2!3d18.2047667!4d-63.0654574!16s%2Fg%2F11n2qfvs7h!19sChIJQxcQ0Y1jDowRIkp4G5a4puY?authuser=0&hl=en&rclk=1",
@@ -3741,7 +3661,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Rendezvous+Beach/data=!4m7!3m6!1s0x8c0e669f6f7cb943:0x61bbe6a03bf4d7c2!8m2!3d18.1775405!4d-63.1128727!16s%2Fg%2F11c6w186v0!19sChIJQ7l8b59mDowRwtf0O6Dmu2E?authuser=0&hl=en&rclk=1",
@@ -3789,7 +3709,7 @@
     "open": 8,
     "closes": 18.5,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Retreat+AXA/data=!4m7!3m6!1s0x8c0e6578ef1bc3e9:0xd314c68a55081794!8m2!3d18.1893747!4d-63.1045567!16s%2Fg%2F11j4jwg7rn!19sChIJ6cMb73hlDowRlBcIVYrGFNM?authuser=0&hl=en&rclk=1",
@@ -3805,7 +3725,7 @@
     "open": 7,
     "closes": 12,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Road+Salt+Pond/data=!4m7!3m6!1s0x8c0e63f4a3b32117:0xcbfa2d8c81d4f811!8m2!3d18.2029169!4d-63.0868821!16s%2Fm%2F010886yq!19sChIJFyGzo_RjDowREfjUgYwt-ss?authuser=0&hl=en&rclk=1",
@@ -3837,7 +3757,7 @@
     "open": 8,
     "closes": 22,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Ruthy%27s+Yum+Yum+Restaurant/data=!4m7!3m6!1s0x8c0e6320019a0191:0x2c66f6d32481734e!8m2!3d18.2301688!4d-63.0406592!16s%2Fg%2F11crzgq34r!19sChIJkQGaASBjDowRTnOBJNP2Ziw?authuser=0&hl=en&rclk=1",
@@ -3853,7 +3773,7 @@
     "open": 12,
     "closes": 21,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/SALT/data=!4m7!3m6!1s0x8c0e67cb856972e5:0xb2422407585b7bfa!8m2!3d18.1790628!4d-63.1463164!16s%2Fg%2F11fqbvwn4v!19sChIJ5XJphctnDowR-ntbWAckQrI?authuser=0&hl=en&rclk=1",
@@ -3869,7 +3789,7 @@
     "open": 7,
     "closes": 21.5,
     "closedon": "Closed 11.50am - 6pm",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/SandBar/data=!4m7!3m6!1s0x8c0e63f43cbbb4a1:0x2e7832bbf8569f74!8m2!3d18.2005295!4d-63.0904908!16s%2Fg%2F1tddythp!19sChIJobS7PPRjDowRdJ9W-LsyeC4?authuser=0&hl=en&rclk=1",
@@ -3885,7 +3805,7 @@
     "open": 16.5,
     "closes": 22,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sandy+Ground+Beach/data=!4m7!3m6!1s0x8c0e65cd2bec9ad7:0x937fa5eb5f6240fb!8m2!3d18.1965725!4d-63.0919632!16s%2Fg%2F11rqhvy9dx!19sChIJ15rsK81lDowR-0BiX-ulf5M?authuser=0&hl=en&rclk=1",
@@ -3949,7 +3869,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sarita%E2%80%99s+Pastas+%26+Pizzas/data=!4m7!3m6!1s0x8c0e671581d8656d:0xa66ac678676fb920!8m2!3d18.1875919!4d-63.1279668!16s%2Fg%2F11n_rwtr6b!19sChIJbWXYgRVnDowRILlvZ3jGaqY?authuser=0&hl=en&rclk=1",
@@ -3965,7 +3885,7 @@
     "open": 17,
     "closes": 22,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Savannah+Bay/data=!4m7!3m6!1s0x8c0e7d6c34ad7103:0xbd62b0618305d696!8m2!3d18.2495059!4d-62.980912!16s%2Fg%2F1tdh4xl_!19sChIJA3GtNGx9DowRltYFg2GwYr0?authuser=0&hl=en&rclk=1",
@@ -3997,7 +3917,7 @@
     "open": 11.5,
     "closes": 22,
     "closedon": "Until 10pm Monday, Tuesday, Closed Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Scilly+Cay+Restaurant/data=!4m7!3m6!1s0x8c0e7d2c97538677:0x1bd2012fa2766bdf!8m2!3d18.2602013!4d-63.0019151!16s%2Fg%2F11j2f0qw2l!19sChIJd4ZTlyx9DowR32t2oi8B0hs?authuser=0&hl=en&rclk=1",
@@ -4013,7 +3933,7 @@
     "open": 11,
     "closes": 17,
     "closedon": "Closed Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sea+Pro+Charters/data=!4m7!3m6!1s0x8c0e63f431fc648f:0xefa3468dc43367e6!8m2!3d18.1995629!4d-63.077229!16s%2Fg%2F11b67cmhq7!19sChIJj2T8MfRjDowR5mczxI1Go-8?authuser=0&hl=en&rclk=1",
@@ -4029,7 +3949,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sea+Spray+Gift+Shop/data=!4m7!3m6!1s0x8c0e638f2534bfe7:0xc41d764691199970!8m2!3d18.200675!4d-63.0758467!16s%2Fg%2F11cn30tlz2!19sChIJ5780JY9jDowRcJkZkUZ2HcQ?authuser=0&hl=en&rclk=1",
@@ -4045,7 +3965,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Serenity+Cottages/data=!4m10!3m9!1s0x8c0e62b858823677:0x6026e4f13f2f7938!5m2!4m1!1i2!8m2!3d18.2541286!4d-63.02452!16s%2Fg%2F11b7vxsr4d!19sChIJdzaCWLhiDowROHkvP_HkJmA?authuser=0&hl=en&rclk=1",
@@ -4061,7 +3981,7 @@
     "open": 8,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Shake+Shack/data=!4m7!3m6!1s0x8c0e6550e730a41d:0x8d97a21bcdbe5f6e!8m2!3d18.1790888!4d-63.0937547!16s%2Fg%2F11mpwfby5j!19sChIJHaQw51BlDowRbl--zRuil40?authuser=0&hl=en&rclk=1",
@@ -4077,7 +3997,7 @@
     "open": 11.5,
     "closes": 22.5,
     "closedon": "Closed Sunday, Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sharky%27s/data=!4m7!3m6!1s0x8c0e6695502866e1:0x9458862f51fadd4f!8m2!3d18.1798985!4d-63.1329274!16s%2Fg%2F11hcdt_sbc!19sChIJ4WYoUJVmDowRT936US-GWJQ?authuser=0&hl=en&rclk=1",
@@ -4093,7 +4013,7 @@
     "open": 18,
     "closes": 21,
     "closedon": "Closed Saturday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sharpy%27s+Shake+Shack/data=!4m7!3m6!1s0x8c0e630cefb90f8b:0x67986a8f5e5b2ee7!8m2!3d18.2148584!4d-63.0538848!16s%2Fg%2F11c2j8js1_!19sChIJiw-57wxjDowR5y5bXo9qmGc?authuser=0&hl=en&rclk=1",
@@ -4109,7 +4029,7 @@
     "open": 7,
     "closes": 22,
     "closedon": "Closed Sunday, Until 12pm Fridy, Saturday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sherricks+Bay/data=!4m7!3m6!1s0x8c0e67a8fb0e42cb:0x3c8d86e4f57c3a75!8m2!3d18.1618893!4d-63.1627123!16s%2Fg%2F1v2pr7lh!19sChIJy0IO-6hnDowRdTp89eSGjTw?authuser=0&hl=en&rclk=1",
@@ -4173,7 +4093,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Signature+TOTS+Boutique/data=!4m7!3m6!1s0x8c0e63816bde3f6b:0xb7af5c39b4736db0!8m2!3d18.1973735!4d-63.0660021!16s%2Fg%2F11hcd9d5bf!19sChIJaz_ea4FjDowRsG1ztDlcr7c?authuser=0&hl=en&rclk=1",
@@ -4189,7 +4109,7 @@
     "open": 10,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sile+Bay/data=!4m7!3m6!1s0x8c0e7d1060376ec7:0x7780dcd8c5fb51f7!8m2!3d18.2355539!4d-62.9831192!16s%2Fg%2F1tgw61sb!19sChIJx243YBB9DowR91H7xdjcgHc?authuser=0&hl=en&rclk=1",
@@ -4221,7 +4141,7 @@
     "open": 10,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/SNOB+KULTURE+BOUTIQUE/data=!4m7!3m6!1s0x8c0e631491085a9f:0x759c75059fc52da4!8m2!3d18.1765705!4d-63.0917507!16s%2Fg%2F11k52w_88x!19sChIJn1oIkRRjDowRpC3FnwV1nHU?authuser=0&hl=en&rclk=1",
@@ -4237,7 +4157,7 @@
     "open": 10,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Soleil+Day+Spa,+Nails+%26+Beauty+Center,+Anguilla/data=!4m7!3m6!1s0x8c0e678e0fcdbf09:0xfe4fb8c13114bf46!8m2!3d18.1771389!4d-63.13778!16s%2Fg%2F11vkrgr9cn!19sChIJCb_ND45nDowRRr8UMcG4T_4?authuser=0&hl=en&rclk=1",
@@ -4253,7 +4173,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sorana+Spa/data=!4m7!3m6!1s0x8c0e6785b3d36835:0x9b0bcdff09ee04af!8m2!3d18.1776394!4d-63.1173983!16s%2Fg%2F11pz7bqvj_!19sChIJNWjTs4VnDowRrwTuCf_NC5s?authuser=0&hl=en&rclk=1",
@@ -4269,7 +4189,23 @@
     "open": 9,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/Malliouhana/@18.1879205,-63.1349104,19.74z/data=!4m14!1m2!2m1!1smalliouhana+bar+soleil!3m10!1s0x8c0e66c73b19eea1:0x88435dcf39795f57!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.1876457!4d-63.134498!15sChZtYWxsaW91aGFuYSBiYXIgc29sZWlsWhgiFm1hbGxpb3VoYW5hIGJhciBzb2xlaWySAQVob3RlbJoBRENpOURRVWxSUVVOdlpFTm9kSGxqUmpsdlQyczBlRmt5ZURCbFJXUkhVMVJhUW1Wc1ZUTlNNR2hNVVZkR1ExVnJSUkFC4AEA-gEECFoQNA!16s%2Fg%2F1yl48dd20?entry=ttu&g_ep=EgoyMDI2MDcxMi4wIKXMDSoASAFQAw%3D%3D",
+    "title": "Spa @ Malliouhana",
+    "label": "Wellness",
+    "type": "Spa",
+    "tags": "spa,pool,gym,yoga,wellness,training",
+    "website": "https://malliouhana.com/wellness/spa/",
+    "phone": "+1 844-815-9207",
+    "location": "West End, Anguilla",
+    "latitude": 18.1876741,
+    "longitude": -63.1369342,
+    "open": 6,
+    "closes": 21,
+    "closedon": "Open Daily, Spa Available 9am - 7pm",
+    "image": "bar.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sri+Balinese+SPA/data=!4m7!3m6!1s0x8c0e650035231715:0x3acae056caa1104c!8m2!3d18.1930857!4d-63.0895911!16s%2Fg%2F11vz4zt28p!19sChIJFRcjNQBlDowRTBChylbgyjo?authuser=0&hl=en&rclk=1",
@@ -4285,7 +4221,23 @@
     "open": 9,
     "closes": 18,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/Stone/@18.2519669,-63.0392515,1064m/data=!3m2!1e3!4b1!4m6!3m5!1s0x8c0e636c8c31f011:0x2b638ba37bd5dd56!8m2!3d18.2519618!4d-63.0366712!16s%2Fg%2F11flzk_v_p?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D",
+    "title": "Stone @ Zemi",
+    "label": "Food",
+    "type": "Restaurant",
+    "tags": "spa,pool,beach,bar,dinner, cocktail, cocktails, wine",
+    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/dining/stone/",
+    "phone": "+1 264-584-0001",
+    "location": "Island Harbour, Anguilla",
+    "latitude": 18.2519669,
+    "longitude": -63.0392515,
+    "open": 18,
+    "closes": 22,
+    "closedon": "Open Thursday - Sunday",
+    "image": "zemi-stone.jpg"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Straw+Hat+Restaurant/data=!4m7!3m6!1s0x8c0e6363c0000001:0xdf68982fead71e01!8m2!3d18.1805441!4d-63.1398!16s%2Fg%2F1tp0fq4d!19sChIJAQAAwGNjDowRAR7X6i-YaN8?authuser=0&hl=en&rclk=1",
@@ -4301,7 +4253,7 @@
     "open": 7.5,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Styler%E2%80%99s+Fitness+Center+Anguilla/data=!4m7!3m6!1s0x8c0e637d670148ef:0x9ac830651168b9e7!8m2!3d18.2230977!4d-63.0599663!16s%2Fg%2F11rwwn44nq!19sChIJ70gBZ31jDowR57loEWUwyJo?authuser=0&hl=en&rclk=1",
@@ -4317,7 +4269,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sugar+Koated+Nails/data=!4m7!3m6!1s0x8c0e635bc8cdda59:0xb0d0287fb5fb15f0!8m2!3d18.1967308!4d-63.0842827!16s%2Fg%2F11pb_fkdqh!19sChIJWdrNyFtjDowR8BX7tX8o0LA?authuser=0&hl=en&rclk=1",
@@ -4333,7 +4285,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sunset+Lounge/data=!4m7!3m6!1s0x8c0e66e6165975cd:0x5978bf9a42d7bae3!8m2!3d18.1787838!4d-63.1465588!16s%2Fg%2F11b7018sc3!19sChIJzXVZFuZmDowR47rXQpq_eFk?authuser=0&hl=en&rclk=1",
@@ -4349,7 +4301,7 @@
     "open": 11.5,
     "closes": 23,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Sunshine+Shack/data=!4m7!3m6!1s0x8c0e669f424a349f:0x8458b6aed5edbf82!8m2!3d18.1774749!4d-63.1135711!16s%2Fg%2F11c3_97c8y!19sChIJnzRKQp9mDowRgr_t1a62WIQ?authuser=0&hl=en&rclk=1",
@@ -4365,7 +4317,7 @@
     "open": 10,
     "closes": 17,
     "closedon": "Closed Friday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Syd+%26+Pete%27s+Supermarket/data=!4m7!3m6!1s0x8c0e6384a6baf537:0xb23d190ee5eb06ec!8m2!3d18.2031935!4d-63.0680384!16s%2Fg%2F11fxcdgtvn!19sChIJN_W6poRjDowR7Abr5Q4ZPbI?authuser=0&hl=en&rclk=1",
@@ -4381,7 +4333,7 @@
     "open": 8,
     "closes": 20,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Tamarind+Tree+Bar+%26+Grill/data=!4m7!3m6!1s0x8c0e631db5666f59:0x1e1867da7fa9009!8m2!3d18.2171078!4d-63.0559558!16s%2Fg%2F11ty4zr0ys!19sChIJWW9mtR1jDowRCZD6p32G4QE?authuser=0&hl=en&rclk=1",
@@ -4397,7 +4349,7 @@
     "open": 11,
     "closes": 23,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Tasty%27s/data=!4m7!3m6!1s0x8c0e638aba73024d:0x895f747d0b8be4be!8m2!3d18.1970041!4d-63.0846146!16s%2Fg%2F11cnbw5_g8!19sChIJTQJzuopjDowRvuSLC310X4k?authuser=0&hl=en&rclk=1",
@@ -4413,7 +4365,23 @@
     "open": 9,
     "closes": 22,
     "closedon": "Closed Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
+  },
+  {
+    "googleurl": "https://www.google.com/maps/place/Zemi+Beach+House,+LXR+Hotels+%26+Resorts/@18.2524417,-63.0387832,429m/data=!3m1!1e3!4m10!3m9!1s0x8c0e62c04a23e3b7:0x263c09669c7f1e11!5m3!1s2026-08-05!4m1!1i2!8m2!3d18.2514162!4d-63.0367634!16s%2Fg%2F11cjj1r5m3?entry=ttu&g_ep=EgoyMDI2MDYyOS4wIKXMDSoASAFQAw%3D%3D",
+    "title": "Thai Spa House @ Zemi",
+    "label": "Wellness",
+    "type": "Spa",
+    "tags": "pool,massage,spa,facial",
+    "website": "https://www.hilton.com/en/hotels/axazbol-zemi-beach-house/experiences/thai-house-spa/",
+    "phone": "+1 264-584-0001",
+    "location": "Island Harbour, Anguilla",
+    "latitude": 18.2524417,
+    "longitude": -63.0387832,
+    "open": 10,
+    "closes": 18,
+    "closedon": "Available Daily by Appointment",
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Cap+Shack/data=!4m7!3m6!1s0x8c0e677706831777:0x9ff299172685b4d!8m2!3d18.1632985!4d-63.1486154!16s%2Fg%2F11fjtvz3kw!19sChIJdxeDBndnDowRTVtocpEp_wk?authuser=0&hl=en&rclk=1",
@@ -4429,7 +4397,7 @@
     "open": 11,
     "closes": 17,
     "closedon": "Closed Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Ferryboat+Inn/data=!4m10!3m9!1s0x8c0e643cf2aa1241:0xca88418bbb072a58!5m2!4m1!1i2!8m2!3d18.171175!4d-63.0948472!16s%2Fg%2F1tgm3xd4!19sChIJQRKq8jxkDowRWCoHu4tBiMo?authuser=0&hl=en&rclk=1",
@@ -4445,7 +4413,7 @@
     "open": 17,
     "closes": 22,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+FishTrap/data=!4m7!3m6!1s0x8c0e7d003815d7e1:0x5c469ce31fd0f8c0!8m2!3d18.256015!4d-63.0013578!16s%2Fg%2F11lnxljwpk!19sChIJ4dcVOAB9DowRwPjQH-OcRlw?authuser=0&hl=en&rclk=1",
@@ -4461,7 +4429,7 @@
     "open": 18,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Landing+Strip+Chinese+Restaurant+%26+Bar/data=!4m7!3m6!1s0x8c0e6500bd45d617:0x66e5ef8823cd89ae!8m2!3d18.1738733!4d-63.0938102!16s%2Fg%2F11q367v9ll!19sChIJF9ZFvQBlDowRronNI4jv5WY?authuser=0&hl=en&rclk=1",
@@ -4493,7 +4461,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Lounge+@Kels/data=!4m7!3m6!1s0x8c0e6390843e666b:0x32e64b1a29ad4a5e!8m2!3d18.2053982!4d-63.0759259!16s%2Fg%2F11jx1q_h07!19sChIJa2Y-hJBjDowRXkqtKRpL5jI?authuser=0&hl=en&rclk=1",
@@ -4509,7 +4477,7 @@
     "open": 18,
     "closes": 0,
     "closedon": "Closed Monday, Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Pink+Bar/data=!4m7!3m6!1s0x8c0e63d0a36d757b:0xa725cd1e1d116eb2!8m2!3d18.2164295!4d-63.0566857!16s%2Fg%2F11txfbybgy!19sChIJe3Vto9BjDowRsm4RHR7NJac?authuser=0&hl=en&rclk=1",
@@ -4541,7 +4509,7 @@
     "open": 17.5,
     "closes": 21,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Roti+Hut/data=!4m7!3m6!1s0x8c0e6342dc0bdc7f:0xb6ed0b0fab38e7b9!8m2!3d18.2063853!4d-63.0602125!16s%2Fg%2F11txl2syfz!19sChIJf9wL3EJjDowRuec4qw8L7bY?authuser=0&hl=en&rclk=1",
@@ -4557,7 +4525,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Shack/data=!4m7!3m6!1s0x8c0e630d5e957e1b:0xcaa5a419b9099899!8m2!3d18.2179989!4d-63.0483549!16s%2Fg%2F11sds58543!19sChIJG36VXg1jDowRmZgJuRmkpco?authuser=0&hl=en&rclk=1",
@@ -4573,7 +4541,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Spa+at+Four+Seasons+Resort+and+Residences+Anguilla/data=!4m7!3m6!1s0x8c0e6792e3a1543f:0x9fd2eb319728d039!8m2!3d18.1785187!4d-63.1453295!16s%2Fg%2F11hb6cljtm!19sChIJP1Sh45JnDowROdAolzHr0p8?authuser=0&hl=en&rclk=1",
@@ -4589,7 +4557,7 @@
     "open": 1,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Vibe+@+Uncle+Ernie%27s/data=!4m7!3m6!1s0x8c0e62b8bfae7d93:0xb1483d7cd42d9a1c!8m2!3d18.254608!4d-63.0310471!16s%2Fg%2F11csrfvq8t!19sChIJk32uv7hiDowRHJot1Hw9SLE?authuser=0&hl=en&rclk=1",
@@ -4605,7 +4573,7 @@
     "open": 10,
     "closes": 19,
     "closedon": "Closed Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/The+Village+Bakehouse/data=!4m7!3m6!1s0x8c0e655863c9357f:0x1fb52c36df86bf0c!8m2!3d18.1915706!4d-63.1038454!16s%2Fg%2F11g6qfykgh!19sChIJfzXJY1hlDowRDL-G3zYstR8?authuser=0&hl=en&rclk=1",
@@ -4621,7 +4589,7 @@
     "open": 7,
     "closes": 13,
     "closedon": "Until 12pm Sunday, Closed Monday, Tuesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Thrifty+Car+Rental+-+Anguilla+Airport+Anguilla/data=!4m7!3m6!1s0x8c0e631e9426689d:0x79713d00288cd7a2!8m2!3d18.212084!4d-63.0537394!16s%2Fg%2F11c5h393nt!19sChIJnWgmlB5jDowRoteMKAA9cXk?authuser=0&hl=en&rclk=1",
@@ -4637,7 +4605,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Tiny+Bay/data=!4m7!3m6!1s0x8c0e6426c4aa0601:0x3b3999af209bc4bf!8m2!3d18.1709717!4d-63.105285!16s%2Fg%2F1tfcjt7x!19sChIJAQaqxCZkDowRv8SbIK-ZOTs?authuser=0&hl=en&rclk=1",
@@ -4669,7 +4637,7 @@
     "open": 11,
     "closes": 22,
     "closedon": "Closed 2.50 - 6pm . Closed Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Tipsy+Turtle/data=!4m7!3m6!1s0x8c0e6775f912f8dd:0x9e1aeb2a70fd3a92!8m2!3d18.1731643!4d-63.1447155!16s%2Fg%2F11p77lz1zq!19sChIJ3fgS-XVnDowRkjr9cCrrGp4?authuser=0&hl=en&rclk=1",
@@ -4685,7 +4653,7 @@
     "open": 11,
     "closes": 0,
     "closedon": "From 4pm Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Toyko+Bay/data=!4m7!3m6!1s0x8c0e67aea1bf3a7f:0x37fef2c4407efe77!8m2!3d18.1774965!4d-63.1173069!16s%2Fg%2F11k3z4_1mj!19sChIJfzq_oa5nDowRd_5-QMTy_jc?authuser=0&hl=en&rclk=1",
@@ -4701,7 +4669,7 @@
     "open": 18,
     "closes": 22,
     "closedon": "Closed Thursday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Tradition+Sailing+Charters+Anguilla/data=!4m7!3m6!1s0x8c0e63f40fc73983:0x6f25eba85446c1b1!8m2!3d18.2013938!4d-63.0905047!16s%2Fg%2F11c2lczw_m!19sChIJgznHD_RjDowRscFGVKjrJW8?authuser=0&hl=en&rclk=1",
@@ -4717,7 +4685,7 @@
     "open": 9,
     "closes": 21,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Trattoria+Tramonto/data=!4m7!3m6!1s0x8c0e66ffc3f4df6b:0x973f1807971cb26f!8m2!3d18.1646916!4d-63.1554022!16s%2Fg%2F1tfxhqwn!19sChIJa9_0w_9mDowRb7IclwcYP5c?authuser=0&hl=en&rclk=1",
@@ -4733,7 +4701,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Travel+Lite+Anguilla/data=!4m7!3m6!1s0x8c0e638169602cd5:0x197f5c29743eda04!8m2!3d18.1973914!4d-63.0660081!16s%2Fg%2F1v96mvdb!19sChIJ1SxgaYFjDowRBNo-dClcfxk?authuser=0&hl=en&rclk=1",
@@ -4749,7 +4717,7 @@
     "open": 8,
     "closes": 18,
     "closedon": "Until 1pm Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Trophy+Bird+Hill/data=!4m7!3m6!1s0x8c0e87003e634b65:0xc5d7d4ab2fa06c58!8m2!3d18.2960139!4d-62.945013!16s%2Fg%2F11w1n52sk1!19sChIJZUtjPgCHDowRWGygL6vU18U?authuser=0&hl=en&rclk=1",
@@ -4781,7 +4749,7 @@
     "open": 9.5,
     "closes": 5.5,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Uchu/data=!4m7!3m6!1s0x8c0e67d75ea00f87:0x78ccb4245e9fc387!8m2!3d18.1650627!4d-63.141967!16s%2Fg%2F11fjtw0m3n!19sChIJhw-gXtdnDowRh8OfXiS0zHg?authuser=0&hl=en&rclk=1",
@@ -4797,7 +4765,7 @@
     "open": 11,
     "closes": 23,
     "closedon": "Open For Lunch Daily, Dinner Tuesday - Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Unique+Bar+%26+Grill/data=!4m7!3m6!1s0x8c0e656c7abea88d:0x7ddc8f76857cb09f!8m2!3d18.1943804!4d-63.0935526!16s%2Fg%2F11qhbzc6_7!19sChIJjai-emxlDowRn7B8hXaP3H0?authuser=0&hl=en&rclk=1",
@@ -4829,7 +4797,7 @@
     "open": 8,
     "closes": 20,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Valley+Health+Centre/data=!4m7!3m6!1s0x8c0e630d0c6a8249:0x8ea0cdc96cce1cd2!8m2!3d18.2149008!4d-63.0518192!16s%2Fg%2F1tdfp9d9!19sChIJSYJqDA1jDowR0hzObMnNoI4?authuser=0&hl=en&rclk=1",
@@ -4845,7 +4813,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Valley%27s+BBQ/data=!4m7!3m6!1s0x8c0e63a8d687190d:0x98215295ba876032!8m2!3d18.199441!4d-63.077513!16s%2Fg%2F11h3nnk31q!19sChIJDRmH1qhjDowRMmCHupVSIZg?authuser=0&hl=en&rclk=1",
@@ -4861,7 +4829,7 @@
     "open": 9,
     "closes": 14,
     "closedon": "Closed Sunday, Monday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Veya+Restaurant/data=!4m7!3m6!1s0x8c0e638c281e3fcb:0x35ec04637f8902f7!8m2!3d18.2017294!4d-63.0794507!16s%2Fg%2F1td1l0jp!19sChIJyz8eKIxjDowR9wKJf2ME7DU?authuser=0&hl=en&rclk=1",
@@ -4877,7 +4845,7 @@
     "open": 18,
     "closes": 22,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Vincy/data=!4m7!3m6!1s0x8c0e634257b20acb:0x50af56fed4fb2e82!8m2!3d18.1959169!4d-63.0875819!16s%2Fg%2F11t4yht7nd!19sChIJywqyV0JjDowRgi771P5Wr1A?authuser=0&hl=en&rclk=1",
@@ -4893,7 +4861,7 @@
     "open": 18,
     "closes": 21.5,
     "closedon": "Closed Tuesday, Wednesday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Violet+Bay/data=!4m7!3m6!1s0x8c0e63aa8ba7d891:0x730ffa71ea3c2843!8m2!3d18.2242895!4d-63.0680767!16s%2Fg%2F11pwqxlvr5!19sChIJkdini6pjDowRQyg86nH6D3M?authuser=0&hl=en&rclk=1",
@@ -4925,7 +4893,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Wallblake+House/data=!4m7!3m6!1s0x8c0e63b8f88f37dd:0x46c0aab73e86b7f5!8m2!3d18.209444!4d-63.054722!16s%2Fm%2F0g53r_w!19sChIJ3TeP-LhjDowR9beGPreqwEY?authuser=0&hl=en&rclk=1",
@@ -4973,7 +4941,7 @@
     "open": 8,
     "closes": 16,
     "closedon": "Closed Saturday, Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Why+Knot+everywhere+wear/data=!4m7!3m6!1s0x8c0e67e679cfc68f:0x18f3145e82075f1e!8m2!3d18.1794658!4d-63.1230744!16s%2Fg%2F11vkf1v3qp!19sChIJj8bPeeZnDowRHl8Hgl4U8xg?authuser=0&hl=en&rclk=1",
@@ -4989,7 +4957,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Windward+Point+Bay/data=!4m7!3m6!1s0x8c0e8778dd0c18a1:0xd0e1432cd8e08195!8m2!3d18.2709721!4d-62.9654625!16s%2Fg%2F1tj34553!19sChIJoRgM3XiHDowRlYHg2CxD4dA?authuser=0&hl=en&rclk=1",
@@ -5021,7 +4989,7 @@
     "open": 0,
     "closes": 0,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Yumyum+Restaurant/data=!4m7!3m6!1s0x8c0e630cee15e5cb:0x5e5aab03ee2410!8m2!3d18.2149145!4d-63.0540407!16s%2Fg%2F11g6b4dwnl!19sChIJy-UV7gxjDowRECTuA6taXgA?authuser=0&hl=en&rclk=1",
@@ -5037,7 +5005,7 @@
     "open": 1,
     "closes": 1,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Zack+shwarma/data=!4m7!3m6!1s0x8c0e639a876faadb:0x305b80fc7fb29b7e!8m2!3d18.2065131!4d-63.0584678!16s%2Fg%2F11fpv8_hkl!19sChIJ26pvh5pjDowRfpuyf_yAWzA?authuser=0&hl=en&rclk=1",
@@ -5053,7 +5021,7 @@
     "open": 10,
     "closes": 0,
     "closedon": "Open Daily, Sundays From 4pm",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Zenith+Car+Rental/data=!4m7!3m6!1s0x8c0e63218825b825:0x44b1450d96693823!8m2!3d18.2067371!4d-63.0500334!16s%2Fg%2F11vpl5srq0!19sChIJJbgliCFjDowRIzhplg1FsUQ?authuser=0&hl=en&rclk=1",
@@ -5069,7 +5037,7 @@
     "open": 9,
     "closes": 17,
     "closedon": "",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   },
   {
     "googleurl": "https://www.google.com/maps/place/Zimzala+Hair+Salon/data=!4m7!3m6!1s0x8c0e640ef092419d:0x23e477511582bc5e!8m2!3d18.1987983!4d-63.0779808!16s%2Fg%2F1ptxqzch9!19sChIJnUGS8A5kDowRXryCFVF35CM?authuser=0&hl=en&rclk=1",
@@ -5085,6 +5053,6 @@
     "open": 10,
     "closes": 18,
     "closedon": "Closed Sunday",
-    "image": "wellness.jpg"
+    "image": "wellness.png"
   }
 ]
