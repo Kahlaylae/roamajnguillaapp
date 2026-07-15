@@ -230,8 +230,10 @@ async function loadFileList() {
   try {
     const resp = await fetch('/api/files');
     const files = await resp.json();
-    renderFileTabs(files);
-    if (files.length > 0) selectFile(files[0]);
+    // Filter out deprecated files
+    const active = files.filter(f => f !== 'notifications.json');
+    renderFileTabs(active);
+    if (active.length > 0) selectFile(active[0]);
   } catch (err) { setStatus('error', 'Failed to load file list'); }
 }
 
@@ -450,18 +452,19 @@ function highlightDescription(text) {
   let html = escapeHtml(text);
   let hasMatch = false;
 
-  // 1. Valid place links: <link>/place/NAME</link>
-  html = html.replace(/&lt;link&gt;\/place\/([^&]+)&lt;\/link&gt;/gi, function(m, name) {
+  // 1. Place links: <place>NAME</place>
+  html = html.replace(/&lt;place&gt;([^&]+)&lt;\/place&gt;/gi, function(m, name) {
     const rawName = unescapeHtml(name);
     const isValid = placeNames.has(rawName.toLowerCase());
     hasMatch = true;
-    return '<span class="syn-tag">&lt;link&gt;</span>/place/<span class="' +
+    return '<span class="syn-tag">&lt;place&gt;</span><span class="' +
       (isValid ? 'syn-valid' : 'syn-invalid') + '" title="' + (isValid ? '✅ Valid place' : '❌ Place not found in places.json') + '">' +
-      name + '</span><span class="syn-tag">&lt;/link&gt;</span>';
+      name + '</span><span class="syn-tag">&lt;/place&gt;</span>';
   });
 
   // 2. Valid event links: <event>NAME+PLACE+DAY</event>
-  html = html.replace(/&lt;event&gt;([^&]+)&lt;\/event&gt;/gi, function(m, key) {
+  // Uses .+? (lazy) because event names can contain & (e.g. "CLAYTON CARTY & ACOUSTICS")
+  html = html.replace(/&lt;event&gt;(.+?)&lt;\/event&gt;/gi, function(m, key) {
     const rawKey = unescapeHtml(key);
     const parts = rawKey.split('+');
     const evName = (parts[0] || '').trim();
@@ -490,9 +493,9 @@ function highlightDescription(text) {
 
   // 5. Incomplete tags (opened but not closed) — only if no valid tags matched
   if (!hasMatch) {
-    // Incomplete <link> (no closing </link>)
-    html = html.replace(/&lt;link&gt;(?!.*&lt;\/link&gt;)(.*)$/gi, function(m, rest) {
-      return '<span class="syn-tag">&lt;link&gt;</span><span class="syn-incomplete">' + rest + '</span>';
+    // Incomplete <place> (no closing </place>)
+    html = html.replace(/&lt;place&gt;(?!.*&lt;\/place&gt;)(.*)$/gi, function(m, rest) {
+      return '<span class="syn-tag">&lt;place&gt;</span><span class="syn-incomplete">' + rest + '</span>';
     });
     // Incomplete <event> (no closing </event>)
     html = html.replace(/&lt;event&gt;(?!.*&lt;\/event&gt;)(.*)$/gi, function(m, rest) {
@@ -589,11 +592,11 @@ function checkAutocomplete(el, e) {
   const popup = document.getElementById('autocompletePopup');
   const text = el.textContent || '';
 
-  // Check if the user just typed <link> or <event>
-  const linkMatch = text.match(/<link>\s*$/i);
+  // Check if the user just typed <place> or <event>
+  const placeMatch = text.match(/<place>\s*$/i);
   const eventMatch = text.match(/<event>\s*$/i);
 
-  if (linkMatch) {
+  if (placeMatch) {
     acTrigger = 'place';
     showAutocompletePopup(el, getPlaceSuggestions(''), popup);
   } else if (eventMatch) {
@@ -612,10 +615,10 @@ function checkAutocomplete(el, e) {
     return;
   } else {
     // User is typing more — if still in an incomplete tag, keep showing
-    const incompleteLink = text.match(/<link>(?![\s\S]*<\/link>)/i);
+    const incompletePlace = text.match(/<place>(?![\s\S]*<\/place>)/i);
     const incompleteEvent = text.match(/<event>(?![\s\S]*<\/event>)/i);
-    if (incompleteLink) {
-      const partial = text.substring(text.lastIndexOf('<link>') + 6).trim();
+    if (incompletePlace) {
+      const partial = text.substring(text.lastIndexOf('<place>') + 7).trim();
       acTrigger = 'place';
       showAutocompletePopup(el, getPlaceSuggestions(partial), popup);
     } else if (incompleteEvent) {
@@ -635,7 +638,7 @@ function getPlaceSuggestions(filter) {
   return lookupData['places.json']
     .filter(p => p.title && (!f || p.title.toLowerCase().includes(f)))
     .slice(0, 15)
-    .map(p => ({ label: p.title, value: '/place/' + p.title + '</link>', sub: p.location || p.type || '' }));
+    .map(p => ({ label: p.title, value: p.title + '</place>', sub: p.location || p.type || '' }));
 }
 
 function getEventSuggestions(filter) {
@@ -696,7 +699,7 @@ function selectAutocompleteItem(idx, sourceEl, popup) {
     const el = sourceEl || document.activeElement;
     if (el && (el.contentEditable === 'true' || el.isContentEditable)) {
       const text = el.textContent || '';
-      const tag = acTrigger === 'place' ? '<link>' : '<event>';
+      const tag = acTrigger === 'place' ? '<place>' : '<event>';
       const tagIdx = text.lastIndexOf(tag);
       if (tagIdx >= 0) {
         const before = text.substring(0, tagIdx);

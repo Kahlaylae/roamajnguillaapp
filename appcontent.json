@@ -1,32 +1,32 @@
 [
- {
-  "title": "Sushi Sundays at Tokyo Bay",
-  "subheadline": "Half-off rolls every Sunday evening",
-  "description": "Every Sunday from 6pm, <link>/place/Sunset Lounge</link> serves the freshest sushi on the island. <br><br> Don't miss their signature dragon roll and bottomless sake specials. <br><br> <a href='https://roamaxa.app/blog/volunteer-ant/'>Read more on our blog</a>",
-  "date": "2026-06-25",
-  "url": "",
-  "image": "https://roamaxa.app/blog/volunteer-ant/hero-image.webp",
-  "tag": "Sushi",
-  "tab": "eat"
-},
- {
-  "title": "Anguilla Summer Festival 2026",
-  "subheadline": "The biggest beach party of the year",
-  "description": "Join us August 1-7 for the annual Anguilla Summer Festival. <br><br> Boat racing, live music, food stalls, and the famous J'ouvert morning. <br><br> Featured at <link>/place/Meads Bay Beach</link> and <link>/place/Shoal Bay East</link>. <br><br> <event>SPROCKA @ VEYA RESTAURANT+Veya Restaurant+tuesday</event> kicks things off!",
-  "date": "2026-06-25",
-  "url": "",
-  "image": "https://roamaxa.app/blog/volunteer-ant/hero-image.webp",
-  "tag": "Festival",
-  "tab": "featured"
-},{
-  "title": "Up For Some Snorkeling?!",
-  "subheadline": "These are some of the best ways to spend a lazy Sunday",
-  "description": "Chilling at <link>/place/Sandy Ground Beach</link> is usually fun but here are some of our top <link>/place/Anguilla Arch</link> For an adventure or <link>/place/Little Bay</link> for an enchanting afternoon snorkeling between the peaceful yet dramatic cliff-side reefs. <br><br> Includes snorkeling at Little Bay, champagne toast, and fresh tapas. <br><br> <event>TASTY'S POV | CLAYTON CARTY & ACOUSTICS+Tasty's+tuesday</event> this Tuesday!",
-  "date": "2026-06-25",
-  "url": "",
-  "image": "https://roamaxa.app/blog/volunteer-ant/hero-image.webp",
-  "tag": "Adventure",
-  "tab": "activity"
-}
- 
+  {
+    "title": "Sushi Sundays at Tokyo Bay",
+    "subheadline": "Half-off rolls every Sunday evening",
+    "description": "Every Sunday from 6pm, <place>Sunset Lounge</place> serves the freshest sushi on the island. <br><br> Don't miss their signature dragon roll and bottomless sake specials. <br><br> <a href='https://roamaxa.app/blog/volunteer-ant/'>Read more on our blog</a>",
+    "date": "2026-06-25",
+    "url": "",
+    "image": "https://roamaxa.app/blog/volunteer-ant/hero-image.webp",
+    "tag": "Sushi",
+    "tab": "eat"
+  },
+  {
+    "title": "Anguilla Summer Festival 2026",
+    "subheadline": "The biggest beach party of the year",
+    "description": "Join us August 1-7 for the annual Anguilla Summer Festival. <br><br> Boat racing, live music, food stalls, and the famous J'ouvert morning. <br><br> Featured at <place>Meads Bay Beach</place> and <place>Shoal Bay East</place>. <br><br> <event>SPROCKA @ VEYA RESTAURANT+Veya Restaurant+tuesday</event> kicks things off!",
+    "date": "2026-06-25",
+    "url": "",
+    "image": "https://roamaxa.app/blog/volunteer-ant/hero-image.webp",
+    "tag": "Festival",
+    "tab": "featured"
+  },
+  {
+    "title": "Up For Some Snorkeling?!",
+    "subheadline": "These are some of the best ways to spend a lazy Sunday",
+    "description": "Chilling at <place>Sandy Ground Beach</place> is usually fun but here are some of our top <place>Anguilla Arch</place> For an adventure or <place>Little Bay</place> for an enchanting afternoon snorkeling between the peaceful yet dramatic cliff-side reefs. <br><br> Includes snorkeling at Little Bay, champagne toast, and fresh tapas. <br><br> <event>TASTY'S POV | CLAYTON CARTY & ACOUSTICS+Tasty's+tuesday</event> this Tuesday!",
+    "date": "2026-06-25",
+    "url": "",
+    "image": "https://roamaxa.app/blog/volunteer-ant/hero-image.webp",
+    "tag": "Adventure",
+    "tab": "activity"
+  }
 ]
