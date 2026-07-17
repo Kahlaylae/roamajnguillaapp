@@ -108,39 +108,82 @@
     background: rgba(0,0,0,0.15);
     max-width: 550px;
   }
-  .desc-display:hover { background: rgba(137, 180, 250, 0.06); }
-  .desc-display.editing {
-    min-height: 160px; max-height: 500px;
-    background: rgba(137, 180, 250, 0.1);
-    box-shadow: inset 0 0 0 1px var(--accent);
-    cursor: text;
-  }
 
-  .desc-cell { min-width: 450px; max-width: 600px; }
-  .desc-textarea {
-    width: 100%; min-width: 420px; min-height: 90px;
+  .desc-cell {
+    min-width: 380px; max-width: 550px;
+  }
+  .desc-cell-inner {
+    height: 80px; overflow: hidden;
+    white-space: pre-wrap; word-break: break-word;
+    font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.75rem;
+    line-height: 1.4; padding: 6px 8px; cursor: pointer;
+    border-radius: 4px; background: rgba(0,0,0,0.12);
+    color: var(--text-muted); position: relative;
+    transition: background 0.15s;
+  }
+  .desc-cell-inner:hover { background: rgba(137, 180, 250, 0.08); }
+  .desc-cell-inner::after {
+    content: ''; position: absolute; bottom: 0; left: 0; right: 0;
+    height: 20px; background: linear-gradient(transparent, rgba(30,30,46,0.9));
+  }
+  .desc-cell-inner.active {
+    background: rgba(137, 180, 250, 0.12);
+    box-shadow: inset 0 0 0 1px var(--accent);
+    color: var(--text);
+  }
+  tr.desc-active td { background: rgba(137, 180, 250, 0.04); }
+
+  /* Bottom Editing Bar */
+  .desc-bar {
+    position: fixed; bottom: 0; left: 0; right: 0; z-index: 200;
+    background: var(--surface); border-top: 2px solid var(--accent);
+    padding: 12px 24px; display: flex; gap: 12px; align-items: flex-start;
+    max-height: 50vh; min-height: 120px;
+  }
+  .desc-bar.hidden { display: none; }
+  .desc-bar-left { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  .desc-bar-right { width: 380px; flex-shrink: 0; display: flex; flex-direction: column; }
+  .desc-bar-header {
+    display: flex; align-items: center; gap: 8px; margin-bottom: 6px;
+    font-size: 0.75rem; color: var(--text-muted);
+  }
+  .desc-bar-header strong { color: var(--accent); }
+  .desc-bar-close {
+    margin-left: auto; background: none; border: none; color: var(--text-muted);
+    cursor: pointer; font-size: 1.2rem; padding: 0 4px;
+  }
+  .desc-bar-close:hover { color: var(--danger); }
+  .desc-bar-textarea {
+    width: 100%; flex: 1; min-height: 60px; resize: vertical;
     padding: 10px 12px; border-radius: 6px;
     border: 1px solid var(--border);
-    background: rgba(0,0,0,0.2); color: var(--text);
+    background: rgba(0,0,0,0.25); color: var(--text);
     font-family: 'SF Mono', 'Fira Code', monospace;
-    font-size: 0.78rem; line-height: 1.5;
-    resize: vertical; outline: none;
+    font-size: 0.8rem; line-height: 1.5; outline: none;
     transition: border-color 0.15s;
   }
-  .desc-textarea:focus {
-    border-color: var(--accent);
-    box-shadow: inset 0 0 0 1px var(--accent);
-  }
-  .desc-live-preview {
-    margin-top: 6px; padding: 8px 10px;
-    border-radius: 6px; background: rgba(0,0,0,0.1);
+  .desc-bar-textarea:focus { border-color: var(--accent); }
+  .desc-bar-preview {
+    flex: 1; padding: 10px 12px; border-radius: 6px;
+    background: rgba(0,0,0,0.12); border: 1px solid var(--border);
     font-family: 'SF Mono', 'Fira Code', monospace;
     font-size: 0.75rem; line-height: 1.5;
-    min-height: 24px; max-height: 200px;
-    overflow-y: auto;
-    white-space: pre-wrap; word-break: break-word;
-    border: 1px solid var(--border);
+    overflow-y: auto; white-space: pre-wrap; word-break: break-word;
+    min-height: 60px;
   }
+  .desc-bar-resize {
+    position: absolute; top: 0; left: 0; right: 0; height: 6px;
+    cursor: ns-resize; z-index: 10;
+    background: transparent; transition: background 0.15s;
+  }
+  .desc-bar-resize:hover { background: rgba(137, 180, 250, 0.3); }
+  .desc-bar-corner {
+    position: absolute; bottom: 0; right: 0;
+    width: 16px; height: 16px; cursor: nwse-resize; z-index: 10;
+    background: linear-gradient(135deg, transparent 40%, rgba(137, 180, 250, 0.4) 40%, rgba(137, 180, 250, 0.4) 55%, transparent 55%);
+    transition: opacity 0.15s; opacity: 0.5;
+  }
+  .desc-bar-corner:hover { opacity: 1; }
 
   .syn-valid     { color: #a6e3a1; font-weight: 600; }
   .syn-invalid   { color: #f38ba8; text-decoration: line-through; }
@@ -230,10 +273,21 @@
   </table>
 </div>
 
-<!-- Description Preview Panel -->
-<div class="desc-preview-panel" id="descPreview">
-  <h4>📝 Description Preview</h4>
-  <div class="desc-preview-content" id="descPreviewContent"></div>
+<!-- Bottom Description Editing Bar -->
+<div class="desc-bar hidden" id="descBar">
+  <div class="desc-bar-resize" id="descBarResize" title="Drag to resize"></div>
+  <div class="desc-bar-left">
+    <div class="desc-bar-header">
+      📝 Editing <strong id="descBarTitle">—</strong> · Row <span id="descBarRow">—</span>
+      <button class="desc-bar-close" onclick="closeDescBar()" title="Close (Esc)">✕</button>
+    </div>
+    <textarea class="desc-bar-textarea" id="descBarTextarea" placeholder="Type description here... Use <place>Name</place>, <event>Name+Place+day</event>, <a href='url'>text</a>, <br>" spellcheck="true"></textarea>
+  </div>
+  <div class="desc-bar-right">
+    <div class="desc-bar-header">🔍 Live Preview</div>
+    <div class="desc-bar-preview" id="descBarPreview"></div>
+  </div>
+  <div class="desc-bar-corner" id="descBarCorner" title="Drag corner to resize"></div>
 </div>
 
 <!-- Auto-Complete Dropdown -->
@@ -287,7 +341,7 @@ async function selectFile(filename) {
   currentFile = filename;
   highlightActiveTab(filename);
   document.getElementById('currentFile').textContent = filename;
-  hideDescPreview();
+  closeDescBar();
   setStatus('', 'Loading...');
   try {
     const resp = await fetch('/api/data/' + encodeURIComponent(filename));
@@ -371,10 +425,15 @@ function renderTable() {
   tbody.addEventListener('focusout', onCellBlur);
   tbody.addEventListener('change', onDropdownChange);
   tbody.addEventListener('paste', onPaste);
-  // Textarea live preview + autocomplete keynav
-  tbody.addEventListener('input', onTextareaInput);
-  tbody.addEventListener('focusout', onTextareaBlur);
-  tbody.addEventListener('keydown', onTextareaKeydown);
+  // Bottom bar textarea events
+  const barTa = document.getElementById('descBarTextarea');
+  barTa.addEventListener('input', onBarTextareaInput);
+  barTa.addEventListener('blur', onBarTextareaBlur);
+  barTa.addEventListener('keydown', onBarTextareaKeydown);
+  // Esc to close
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') closeDescBar();
+  });
   document.getElementById('rowCount').textContent = currentData.length + ' rows × ' + allKeys.length + ' cols';
   updateStatusDot();
 }
@@ -398,19 +457,19 @@ function renderCell(key, row, idx, fileLinks) {
   }
   // Tab picker for appcontent.json
   if (currentFile === 'appcontent.json' && key === 'tab') {
-    const tabs = ['home', 'eat', 'activity'];
+    const tabs = ['featured', 'home', 'eat', 'activity'];
     const options = tabs.map(t => '<option value="' + t + '"' + (strVal === t ? ' selected' : '') + '>' + t + '</option>');
     return '<td class="dropdown-cell" data-key="' + escapeHtml(key) + '" data-index="' + idx + '">' +
       '<select data-key="' + escapeHtml(key) + '" data-index="' + idx + '">' +
       '<option value="">—</option>' + options.join('') + '</select></td>';
   }
-  // Description field in appcontent.json — always-editable textarea with live preview
+  // Description field in appcontent.json — truncated cell, click to open bottom bar
   if (currentFile === 'appcontent.json' && key === 'description') {
-    const rows = Math.max(4, (strVal.match(/\n/g) || []).length + 2);
+    const preview = strVal.length > 150 ? strVal.substring(0, 150) + '…' : strVal;
     return '<td class="desc-cell" data-key="' + escapeHtml(key) + '" data-index="' + idx + '">' +
-      '<textarea class="desc-textarea" data-key="' + escapeHtml(key) + '" data-index="' + idx + '" rows="' + rows + '" spellcheck="true">' + escVal + '</textarea>' +
-      '<div class="desc-live-preview" data-index="' + idx + '">' + highlightDescription(strVal) + '</div>' +
-      '</td>';
+      '<div class="desc-cell-inner" data-key="' + escapeHtml(key) + '" data-index="' + idx + '" onclick="openDescBar(' + idx + ')" title="Click to edit in bottom bar">' +
+        escapeHtml(preview) +
+      '</div></td>';
   }
   return '<td contenteditable="true" data-key="' + escapeHtml(key) + '" data-index="' + idx + '" data-original="' + escVal + '">' + escVal + '</td>';
 }
@@ -446,11 +505,6 @@ function onCellInput(e) {
   if (!td) return;
   isDirty = true;
   updateStatusDot();
-  // If editing a description cell in appcontent.json, update the preview
-  if (td.dataset.key === 'description' && currentFile === 'appcontent.json') {
-    updateDescPreview(td.textContent || '');
-    checkAutocomplete(td, e);
-  }
 }
 
 function onCellBlur(e) {
@@ -558,84 +612,114 @@ function unescapeHtml(str) {
   return div.textContent || '';
 }
 
-// ═══════════════════════════════════════
-//  DESCRIPTION PREVIEW PANEL
-// ═══════════════════════════════════════
-function updateDescPreview(text) {
-  const panel = document.getElementById('descPreview');
-  const content = document.getElementById('descPreviewContent');
-  if (!text) {
-    panel.classList.remove('visible');
-    return;
-  }
-  panel.classList.add('visible');
-  content.innerHTML = highlightDescription(text);
-}
-
-function hideDescPreview() {
-  document.getElementById('descPreview').classList.remove('visible');
-}
+// Old preview functions removed — replaced by bottom bar system
 
 // ═══════════════════════════════════════
-//  TEXTAREA DESCRIPTION — always editable, live preview
+//  BOTTOM DESCRIPTION EDITING BAR
 // ═══════════════════════════════════════
-function onTextareaInput(e) {
-  const ta = e.target.closest('.desc-textarea');
-  if (!ta) return;
-  const idx = parseInt(ta.dataset.index);
-  const key = ta.dataset.key;
-  const rawText = ta.value;
+let descBarActiveIdx = -1;
+
+function openDescBar(idx) {
+  descBarActiveIdx = idx;
+  const row = currentData[idx];
+  const rawText = row ? String(row['description'] || '') : '';
+  const bar = document.getElementById('descBar');
+  const ta = document.getElementById('descBarTextarea');
+  bar.classList.remove('hidden');
+  ta.value = rawText;
+  ta.focus();
+  updateBarPreview(rawText);
+  document.getElementById('descBarTitle').textContent = row ? (row['title'] || 'Untitled') : '—';
+  document.getElementById('descBarRow').textContent = idx + 1;
+  // Highlight active cell
+  document.querySelectorAll('.desc-cell-inner').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('tr').forEach(el => el.classList.remove('desc-active'));
+  const cell = document.querySelector('.desc-cell-inner[data-index="' + idx + '"]');
+  if (cell) { cell.classList.add('active'); cell.closest('tr').classList.add('desc-active'); }
+  // Padding for bar
+  document.body.style.paddingBottom = '140px';
+}
+
+function closeDescBar() {
+  document.getElementById('descBar').classList.add('hidden');
+  descBarActiveIdx = -1;
+  document.querySelectorAll('.desc-cell-inner').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('tr').forEach(el => el.classList.remove('desc-active'));
+  document.body.style.paddingBottom = '';
+}
+
+function updateBarPreview(text) {
+  document.getElementById('descBarPreview').innerHTML = highlightDescription(text || '');
+}
+
+function onBarTextareaInput() {
   isDirty = true;
   updateStatusDot();
-  // Update live preview below the textarea
-  const td = ta.parentElement;
-  const preview = td.querySelector('.desc-live-preview');
-  if (preview) { preview.innerHTML = highlightDescription(rawText); }
-  // Update the bottom preview panel too
-  updateDescPreview(rawText);
-  checkAutocompleteOnTextarea(ta, rawText);
+  updateBarPreview(this.value);
+  checkAutocompleteOnBar(this);
 }
 
-function onTextareaBlur(e) {
-  const ta = e.target.closest('.desc-textarea');
-  if (!ta) return;
-  const idx = parseInt(ta.dataset.index);
-  const key = ta.dataset.key;
-  const newVal = ta.value;
-  currentData[idx][key] = newVal;
+function onBarTextareaBlur() {
+  if (descBarActiveIdx < 0) return;
+  const newVal = this.value;
+  currentData[descBarActiveIdx]['description'] = newVal;
   setStatus('unsaved', 'Unsaved changes');
-  if (!newVal) hideDescPreview();
+  if (!newVal) closeDescBar();
 }
 
-function onTextareaKeydown(e) {
-  const ta = e.target.closest('.desc-textarea');
-  if (!ta || !acTrigger) return;
+function onBarTextareaKeydown(e) {
   const popup = document.getElementById('autocompletePopup');
-  if (!popup.classList.contains('visible')) return;
-  if (e.key === 'ArrowDown') { e.preventDefault(); navigateAutocomplete(1, popup); }
-  else if (e.key === 'ArrowUp')   { e.preventDefault(); navigateAutocomplete(-1, popup); }
-  else if (e.key === 'Enter')     { e.preventDefault(); selectAutocompleteItem(acActiveIdx, ta, popup); }
-  else if (e.key === 'Escape')    { popup.classList.remove('visible'); acTrigger = null; }
+  if (popup.classList.contains('visible') && acTrigger) {
+    if (e.key === 'ArrowDown') { e.preventDefault(); navigateAutocomplete(1, popup); }
+    else if (e.key === 'ArrowUp')   { e.preventDefault(); navigateAutocomplete(-1, popup); }
+    else if (e.key === 'Enter' && acActiveIdx >= 0) { e.preventDefault(); selectAutocompleteItem(acActiveIdx, this, popup); }
+  }
 }
 
-// Auto-complete for textarea
-function checkAutocompleteOnTextarea(ta, rawText) {
+function checkAutocompleteOnBar(el) {
   const popup = document.getElementById('autocompletePopup');
+  const rawText = el.value;
   const incompletePlace = rawText.match(/<place>(?![\s\S]*<\/place>)/i);
   const incompleteEvent = rawText.match(/<event>(?![\s\S]*<\/event>)/i);
   if (incompletePlace) {
     const partial = rawText.substring(rawText.lastIndexOf('<place>') + 7).trim();
     acTrigger = 'place';
-    showAutocompletePopup(ta, getPlaceSuggestions(partial), popup);
+    showAutocompletePopup(el, getPlaceSuggestions(partial), popup);
   } else if (incompleteEvent) {
     const partial = rawText.substring(rawText.lastIndexOf('<event>') + 7).trim();
     acTrigger = 'event';
-    showAutocompletePopup(ta, getEventSuggestions(partial), popup);
+    showAutocompletePopup(el, getEventSuggestions(partial), popup);
   } else {
     popup.classList.remove('visible');
     acTrigger = null;
   }
 }
+
+// Resize handle — top edge + corner
+let barResizeActive = false;
+function onBarResizeStart(e) {
+  barResizeActive = true;
+  barResizeY = e.clientY;
+  barStartHeight = document.getElementById('descBar').offsetHeight;
+  document.addEventListener('mousemove', onBarResizeMove);
+  document.addEventListener('mouseup', onBarResizeEnd);
+  e.preventDefault();
+}
+function onBarResizeMove(e) {
+  if (!barResizeActive) return;
+  const dy = barResizeY - e.clientY;
+  const newH = Math.max(100, Math.min(window.innerHeight * 0.7, barStartHeight + dy));
+  document.getElementById('descBar').style.height = newH + 'px';
+  document.body.style.paddingBottom = (newH + 20) + 'px';
+}
+function onBarResizeEnd() {
+  barResizeActive = false;
+  document.removeEventListener('mousemove', onBarResizeMove);
+  document.removeEventListener('mouseup', onBarResizeEnd);
+}
+// Attach to both top edge and corner
+document.getElementById('descBarResize').addEventListener('mousedown', onBarResizeStart);
+document.getElementById('descBarCorner').addEventListener('mousedown', onBarResizeStart);
 
 // ═══════════════════════════════════════
 //  AUTO-COMPLETE FOR <link> AND <event>
@@ -753,7 +837,6 @@ function selectAutocompleteItem(idx, sourceEl, popup) {
     const sel = suggestions[idx];
     const el = sourceEl || document.activeElement;
     if (!el) return;
-    // Textarea — insert at cursor position
     if (el.tagName === 'TEXTAREA') {
       const text = el.value;
       const tag = acTrigger === 'place' ? '<place>' : '<event>';
@@ -778,7 +861,7 @@ function selectAutocompleteItem(idx, sourceEl, popup) {
         sel2.removeAllRanges();
         sel2.addRange(range);
       }
-      updateDescPreview(el.textContent || '');
+      updateBarPreview(el.textContent || '');
     }
   }
   popup.classList.remove('visible');
