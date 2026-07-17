@@ -102,12 +102,45 @@
   .desc-display {
     white-space: pre-wrap; word-break: break-word;
     font-family: 'SF Mono', 'Fira Code', monospace; font-size: 0.78rem;
-    line-height: 1.5; padding: 6px 8px; cursor: pointer;
-    border-radius: 4px; min-height: 24px;
+    line-height: 1.5; padding: 10px 12px; cursor: pointer;
+    border-radius: 4px; min-height: 80px; max-height: 300px;
+    overflow-y: auto;
     background: rgba(0,0,0,0.15);
-    max-width: 450px;
+    max-width: 550px;
   }
   .desc-display:hover { background: rgba(137, 180, 250, 0.06); }
+  .desc-display.editing {
+    min-height: 160px; max-height: 500px;
+    background: rgba(137, 180, 250, 0.1);
+    box-shadow: inset 0 0 0 1px var(--accent);
+    cursor: text;
+  }
+
+  .desc-cell { min-width: 450px; max-width: 600px; }
+  .desc-textarea {
+    width: 100%; min-width: 420px; min-height: 90px;
+    padding: 10px 12px; border-radius: 6px;
+    border: 1px solid var(--border);
+    background: rgba(0,0,0,0.2); color: var(--text);
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.78rem; line-height: 1.5;
+    resize: vertical; outline: none;
+    transition: border-color 0.15s;
+  }
+  .desc-textarea:focus {
+    border-color: var(--accent);
+    box-shadow: inset 0 0 0 1px var(--accent);
+  }
+  .desc-live-preview {
+    margin-top: 6px; padding: 8px 10px;
+    border-radius: 6px; background: rgba(0,0,0,0.1);
+    font-family: 'SF Mono', 'Fira Code', monospace;
+    font-size: 0.75rem; line-height: 1.5;
+    min-height: 24px; max-height: 200px;
+    overflow-y: auto;
+    white-space: pre-wrap; word-break: break-word;
+    border: 1px solid var(--border);
+  }
 
   .syn-valid     { color: #a6e3a1; font-weight: 600; }
   .syn-invalid   { color: #f38ba8; text-decoration: line-through; }
@@ -338,6 +371,10 @@ function renderTable() {
   tbody.addEventListener('focusout', onCellBlur);
   tbody.addEventListener('change', onDropdownChange);
   tbody.addEventListener('paste', onPaste);
+  // Textarea live preview + autocomplete keynav
+  tbody.addEventListener('input', onTextareaInput);
+  tbody.addEventListener('focusout', onTextareaBlur);
+  tbody.addEventListener('keydown', onTextareaKeydown);
   document.getElementById('rowCount').textContent = currentData.length + ' rows × ' + allKeys.length + ' cols';
   updateStatusDot();
 }
@@ -359,12 +396,21 @@ function renderCell(key, row, idx, fileLinks) {
       '<select data-key="' + escapeHtml(key) + '" data-index="' + idx + '">' +
       '<option value="">—</option>' + options.join('') + '</select></td>';
   }
-  // Description field in appcontent.json gets special rich display
+  // Tab picker for appcontent.json
+  if (currentFile === 'appcontent.json' && key === 'tab') {
+    const tabs = ['home', 'eat', 'activity'];
+    const options = tabs.map(t => '<option value="' + t + '"' + (strVal === t ? ' selected' : '') + '>' + t + '</option>');
+    return '<td class="dropdown-cell" data-key="' + escapeHtml(key) + '" data-index="' + idx + '">' +
+      '<select data-key="' + escapeHtml(key) + '" data-index="' + idx + '">' +
+      '<option value="">—</option>' + options.join('') + '</select></td>';
+  }
+  // Description field in appcontent.json — always-editable textarea with live preview
   if (currentFile === 'appcontent.json' && key === 'description') {
+    const rows = Math.max(4, (strVal.match(/\n/g) || []).length + 2);
     return '<td class="desc-cell" data-key="' + escapeHtml(key) + '" data-index="' + idx + '">' +
-      '<div class="desc-display" data-key="' + escapeHtml(key) + '" data-index="' + idx + '" onclick="editDescription(this)">' +
-        highlightDescription(strVal) +
-      '</div></td>';
+      '<textarea class="desc-textarea" data-key="' + escapeHtml(key) + '" data-index="' + idx + '" rows="' + rows + '" spellcheck="true">' + escVal + '</textarea>' +
+      '<div class="desc-live-preview" data-index="' + idx + '">' + highlightDescription(strVal) + '</div>' +
+      '</td>';
   }
   return '<td contenteditable="true" data-key="' + escapeHtml(key) + '" data-index="' + idx + '" data-original="' + escVal + '">' + escVal + '</td>';
 }
@@ -531,55 +577,64 @@ function hideDescPreview() {
 }
 
 // ═══════════════════════════════════════
-//  CLICK-TO-EDIT DESCRIPTION
+//  TEXTAREA DESCRIPTION — always editable, live preview
 // ═══════════════════════════════════════
-function editDescription(div) {
-  const key = div.dataset.key;
-  const idx = parseInt(div.dataset.index);
-  const rawText = currentData[idx] ? String(currentData[idx][key] || '') : '';
-
-  // Replace the display div with a contenteditable div
-  const td = div.parentElement;
-  td.innerHTML = '';
-  const editable = document.createElement('div');
-  editable.contentEditable = 'true';
-  editable.className = 'desc-display';
-  editable.style.cursor = 'text';
-  editable.style.background = 'rgba(137, 180, 250, 0.1)';
-  editable.style.outline = 'none';
-  editable.style.boxShadow = 'inset 0 0 0 1px #89b4fa';
-  editable.dataset.key = key;
-  editable.dataset.index = idx;
-  editable.textContent = rawText;
-  editable.addEventListener('input', function(e) {
-    isDirty = true;
-    updateStatusDot();
-    updateDescPreview(editable.textContent || '');
-    checkAutocomplete(editable, e);
-  });
-  editable.addEventListener('blur', function() {
-    const newVal = editable.textContent || '';
-    currentData[idx][key] = newVal;
-    // Re-render the cell as display
-    td.innerHTML = '<div class="desc-display" data-key="' + escapeHtml(key) +
-      '" data-index="' + idx + '" onclick="editDescription(this)">' +
-      highlightDescription(newVal) + '</div>';
-    setStatus('unsaved', 'Unsaved changes');
-    if (!newVal) hideDescPreview();
-  });
-  editable.addEventListener('paste', function(e) {
-    e.preventDefault();
-    const text = (e.clipboardData || window.clipboardData).getData('text/plain');
-    document.execCommand('insertText', false, text);
-  });
-  editable.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape') { editable.blur(); }
-  });
-  td.appendChild(editable);
-  editable.focus();
-
-  // Show preview
+function onTextareaInput(e) {
+  const ta = e.target.closest('.desc-textarea');
+  if (!ta) return;
+  const idx = parseInt(ta.dataset.index);
+  const key = ta.dataset.key;
+  const rawText = ta.value;
+  isDirty = true;
+  updateStatusDot();
+  // Update live preview below the textarea
+  const td = ta.parentElement;
+  const preview = td.querySelector('.desc-live-preview');
+  if (preview) { preview.innerHTML = highlightDescription(rawText); }
+  // Update the bottom preview panel too
   updateDescPreview(rawText);
+  checkAutocompleteOnTextarea(ta, rawText);
+}
+
+function onTextareaBlur(e) {
+  const ta = e.target.closest('.desc-textarea');
+  if (!ta) return;
+  const idx = parseInt(ta.dataset.index);
+  const key = ta.dataset.key;
+  const newVal = ta.value;
+  currentData[idx][key] = newVal;
+  setStatus('unsaved', 'Unsaved changes');
+  if (!newVal) hideDescPreview();
+}
+
+function onTextareaKeydown(e) {
+  const ta = e.target.closest('.desc-textarea');
+  if (!ta || !acTrigger) return;
+  const popup = document.getElementById('autocompletePopup');
+  if (!popup.classList.contains('visible')) return;
+  if (e.key === 'ArrowDown') { e.preventDefault(); navigateAutocomplete(1, popup); }
+  else if (e.key === 'ArrowUp')   { e.preventDefault(); navigateAutocomplete(-1, popup); }
+  else if (e.key === 'Enter')     { e.preventDefault(); selectAutocompleteItem(acActiveIdx, ta, popup); }
+  else if (e.key === 'Escape')    { popup.classList.remove('visible'); acTrigger = null; }
+}
+
+// Auto-complete for textarea
+function checkAutocompleteOnTextarea(ta, rawText) {
+  const popup = document.getElementById('autocompletePopup');
+  const incompletePlace = rawText.match(/<place>(?![\s\S]*<\/place>)/i);
+  const incompleteEvent = rawText.match(/<event>(?![\s\S]*<\/event>)/i);
+  if (incompletePlace) {
+    const partial = rawText.substring(rawText.lastIndexOf('<place>') + 7).trim();
+    acTrigger = 'place';
+    showAutocompletePopup(ta, getPlaceSuggestions(partial), popup);
+  } else if (incompleteEvent) {
+    const partial = rawText.substring(rawText.lastIndexOf('<event>') + 7).trim();
+    acTrigger = 'event';
+    showAutocompletePopup(ta, getEventSuggestions(partial), popup);
+  } else {
+    popup.classList.remove('visible');
+    acTrigger = null;
+  }
 }
 
 // ═══════════════════════════════════════
@@ -697,14 +752,25 @@ function selectAutocompleteItem(idx, sourceEl, popup) {
   if (idx < suggestions.length) {
     const sel = suggestions[idx];
     const el = sourceEl || document.activeElement;
-    if (el && (el.contentEditable === 'true' || el.isContentEditable)) {
+    if (!el) return;
+    // Textarea — insert at cursor position
+    if (el.tagName === 'TEXTAREA') {
+      const text = el.value;
+      const tag = acTrigger === 'place' ? '<place>' : '<event>';
+      const tagIdx = text.lastIndexOf(tag);
+      if (tagIdx >= 0) {
+        const before = text.substring(0, tagIdx);
+        el.value = before + tag + sel.value;
+        el.selectionStart = el.selectionEnd = el.value.length;
+        el.dispatchEvent(new Event('input', { bubbles: true }));
+      }
+    } else if (el.contentEditable === 'true' || el.isContentEditable) {
       const text = el.textContent || '';
       const tag = acTrigger === 'place' ? '<place>' : '<event>';
       const tagIdx = text.lastIndexOf(tag);
       if (tagIdx >= 0) {
         const before = text.substring(0, tagIdx);
         el.textContent = before + tag + sel.value;
-        // Move cursor to end
         const range = document.createRange();
         range.selectNodeContents(el);
         range.collapse(false);

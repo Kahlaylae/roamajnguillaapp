@@ -2,7 +2,7 @@
 """macOS App Launcher — starts server and opens browser. Designed to be called from AppleScript app."""
 import subprocess, webbrowser, time, os, sys, urllib.request
 
-DATA_DIR = "/Users/kayboy/Documents/roamajnguillaapp"
+DATA_DIR = "/Users/kayboy/Documents/ROAMCMS"
 PORT = 5050
 
 def is_running():

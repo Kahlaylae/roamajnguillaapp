@@ -6,11 +6,60 @@ View, edit, add, and delete rows in your JSON files through a web interface.
 
 import json
 import os
+import re
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
 
 DATA_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Anguilla district names (ordered by specificity for matching)
+ANGUILLA_DISTRICTS = [
+    "West End", "Sandy Ground", "Island Harbour", "South Hill",
+    "The Valley", "Blowing Point", "East End", "George Hill",
+    "North Hill", "North Side", "Sandy Hill", "Stoney Ground",
+    "The Quarter", "The Farrington", "Shoal Bay",
+]
+
+
+def normalize_location(raw):
+    """Clean a raw Google Maps address into 'Area, Anguilla' format.
+
+    Examples:
+        'Sandy Ground 2640, Anguilla'     → 'Sandy Ground, Anguilla'
+        '5WW4+4MG, Sandy Ground 2640, AI' → 'Sandy Ground, Anguilla'
+        'Rte 1 SHOAL BAY WEST, 1254 Rupert Carty Drive, WEST END 2640, Anguilla'
+                                          → 'West End, Anguilla'
+    """
+    if not raw or not isinstance(raw, str):
+        return raw
+
+    # Already clean? (matches 'Area, Anguilla' exactly)
+    already_clean = re.match(r'^[A-Za-z ]+, Anguilla$', raw.strip())
+    if already_clean:
+        return raw.strip()
+
+    raw_upper = raw.upper()
+    for district in ANGUILLA_DISTRICTS:
+        if district.upper() in raw_upper:
+            return f"{district}, Anguilla"
+
+    # Fallback: strip known noise patterns
+    cleaned = raw
+    cleaned = re.sub(r'\b\d{4,6}\b', '', cleaned)                     # Postal codes
+    cleaned = re.sub(r'\b[0-9A-Z]{4}\+[0-9A-Z]{2,3}\b', '', cleaned) # Plus codes
+    cleaned = re.sub(r'\bRte\s+\d+\b', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r'\d+\s+\w+\s+\w+\s+(Drive|Road|Street|Lane)', '', cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r',\s*,', ',', cleaned)
+    cleaned = cleaned.strip(' ,')
+
+    parts = [p.strip() for p in cleaned.split(',') if p.strip()]
+    if len(parts) >= 2:
+        area = parts[-2]
+        return f"{area}, Anguilla"
+    elif parts:
+        return f"{parts[0]}, Anguilla"
+    return raw  # Can't normalize — return as-is
 
 
 def get_json_files():
@@ -78,6 +127,13 @@ def api_save_data(filename):
         return jsonify({'error': 'Invalid JSON body'}), 400
     if not isinstance(new_data, list):
         return jsonify({'error': 'Data must be a JSON array'}), 400
+
+    # Auto-normalize locations when saving places.json
+    if filename == 'places.json':
+        for row in new_data:
+            if isinstance(row, dict) and 'location' in row:
+                original = row['location']
+                row['location'] = normalize_location(original)
 
     success, error = save_json(filename, new_data)
     if not success:
