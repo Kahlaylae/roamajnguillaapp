@@ -60,6 +60,7 @@
   .status-dot.saved { background: var(--success); }
   .status-dot.unsaved { background: var(--warning); animation: pulse 1.5s infinite; }
   .status-dot.error { background: var(--danger); }
+  .status-dot.warning-dot { background: #f9a825; animation: pulse 1.5s infinite; }
   @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.4} }
   .table-wrapper {
     margin: 16px 24px; overflow-x: auto; border: 1px solid var(--border);
@@ -1532,7 +1533,13 @@ async function saveData() {
     originalData = JSON.parse(JSON.stringify(currentData));
     isDirty = false;
     const result = await resp.json();
-    setStatus('saved', 'Saved ' + result.count + ' rows to ' + currentFile);
+    let msg = 'Saved ' + result.count + ' rows to ' + currentFile;
+    if (result.warnings && result.warnings.length) {
+      msg = '⚠️ ' + result.warnings.join(' | ') + ' — ' + msg;
+      setStatus('warning', msg);
+    } else {
+      setStatus('saved', msg);
+    }
     updateStatusDot();
   } catch (err) {
     setStatus('error', 'Save failed: ' + err.message);
@@ -1575,8 +1582,11 @@ function escapeHtml(str) {
   return div.innerHTML;
 }
 
+let lastStatusType = 'saved';
+
 function setStatus(type, msg) {
   document.getElementById('statusText').textContent = msg;
+  lastStatusType = type || 'saved';
   updateStatusDot();
 }
 
@@ -1584,6 +1594,8 @@ function updateStatusDot() {
   const dot = document.getElementById('statusDot');
   dot.className = 'status-dot';
   if (isDirty) dot.classList.add('unsaved');
+  else if (lastStatusType === 'warning') dot.classList.add('warning-dot');
+  else if (lastStatusType === 'error') dot.classList.add('error');
   else dot.classList.add('saved');
 }
 

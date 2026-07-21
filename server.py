@@ -156,10 +156,29 @@ def api_save_data(filename):
                             cleaned.append(t)
                     row['tags'] = ', '.join(cleaned)
 
+    # Event duplicate detection
+    warnings = []
+    if filename == 'events.json':
+        from collections import Counter
+        keys = []
+        for row in new_data:
+            if isinstance(row, dict):
+                name = (row.get('name') or '').strip().lower()
+                day = (row.get('eventday') or '').strip().lower()
+                place = (row.get('place') or '').strip().lower()
+                keys.append((name, day, place))
+        dupes = [(k, c) for k, c in Counter(keys).items() if c > 1]
+        if dupes:
+            dup_names = [f'"{d[0][0].title()}" on {d[0][1].title()} ({d[1]}x)' for d in dupes[:5]]
+            warnings.append(f'⚠️ {len(dupes)} duplicate event(s) detected: {"; ".join(dup_names)}')
+
     success, error = save_json(filename, new_data)
+    result = {'status': 'ok', 'count': len(new_data)}
+    if warnings:
+        result['warnings'] = warnings
     if not success:
         return jsonify({'error': error}), 500
-    return jsonify({'status': 'ok', 'count': len(new_data)})
+    return jsonify(result)
 
 
 # ── Places metadata (unique labels & tags) ─────────────────────────
