@@ -157,6 +157,32 @@ def api_save_data(filename):
                             cleaned.append(t)
                     row['tags'] = ', '.join(cleaned)
 
+    # Auto-normalize webcontent.json: force absolute image URLs
+    if filename == 'webcontent.json':
+        for row in new_data:
+            if isinstance(row, dict) and 'image' in row:
+                img = row['image']
+                if img and not img.startswith('http'):
+                    # Relative path → convert to absolute
+                    slug = row.get('url', '').rstrip('/').split('/')[-1]
+                    # Ensure images/ subfolder
+                    if 'images/' not in img:
+                        img = img.replace(f'/{slug}/', f'/{slug}/images/')
+                    row['image'] = f'https://roamaxa.app{img}' if img.startswith('/') else f'https://roamaxa.app/blog/{slug}/images/hero.jpg'
+
+    # Auto-normalize content.json: ensure images/ subfolder in image paths
+    if filename == 'content.json':
+        for row in new_data:
+            if isinstance(row, dict) and 'image' in row:
+                img = row['image']
+                if img and 'images/' not in img:
+                    # Inject images/ into the path
+                    slug = row.get('url', '').rstrip('/').split('/')[-1]
+                    row['image'] = img.replace(f'/{slug}/', f'/{slug}/images/')
+                # Also fix .png → .jpg
+                if row['image'].endswith('.png'):
+                    row['image'] = row['image'][:-4] + '.jpg'
+
     # Event duplicate detection
     warnings = []
     if filename == 'events.json':
