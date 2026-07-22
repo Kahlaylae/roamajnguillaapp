@@ -768,11 +768,42 @@ def regenerate_sitemap():
         f.write(xml_str)
 
 
+def _place_card_html(place_name):
+    """Generate HTML for a <place> tag reference. Looks up places.json for Google Maps link."""
+    places_data, _ = load_json('places.json')
+    place_info = None
+    if isinstance(places_data, list):
+        for p in places_data:
+            if p.get('title', '').lower() == place_name.lower():
+                place_info = p
+                break
+    if place_info and place_info.get('googleurl'):
+        gurl = place_info['googleurl']
+        loc = place_info.get('location', '')
+        return (
+            f'<div class="place-card" style="background:#f0f7ff;border:1px solid #1E6F9F;border-radius:10px;padding:14px 18px;margin:1.2em 0;display:flex;align-items:center;gap:12px">'
+            f'<span style="font-size:1.5rem">📍</span>'
+            f'<div style="flex:1"><strong style="color:#1a2c3e">{place_name}</strong>'
+            f'<br><span style="font-size:0.85rem;color:#666">{loc}</span></div>'
+            f'<a href="{gurl}" target="_blank" rel="noopener" '
+            f'style="background:#1E6F9F;color:white;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:0.85rem;font-weight:600;white-space:nowrap">🗺 View on Map</a>'
+            f'</div>'
+        )
+    else:
+        return (
+            f'<div class="place-card" style="background:#fff8f0;border:1px dashed #ccc;border-radius:10px;padding:14px 18px;margin:1.2em 0">'
+            f'<em style="color:#999">📍 {place_name}</em>'
+            f'</div>'
+        )
+
+
 def parse_body_to_html(body_text):
     """Convert editor body text to HTML.
     
     Syntax:
+      # Heading         → <h1>Heading</h1>
       ## Heading        → <h2>Heading</h2>
+      <box>content</box> → <div class="cta-box">content</div>
       <place>Name</place> → styled place card with Google Maps link
       [img:file.jpg]    → marks next line as caption, creates image block
       blank line        → <br> separator between paragraphs
@@ -789,38 +820,46 @@ def parse_body_to_html(body_text):
         line = lines[i]
         stripped = line.strip()
         
-        # Place tag: <place>Name</place> — look up in places.json for Google Maps link
+        # CTA Box: <box> ... </box> (multi-line block)
+        if stripped.startswith('<box>'):
+            if para_lines:
+                html_parts.append('<p>' + ' '.join(para_lines) + '</p>')
+                para_lines = []
+            box_lines = []
+            rest = stripped[5:].strip()  # content after <box> on opening line
+            if rest:
+                box_lines.append(rest)
+            i += 1
+            while i < len(lines):
+                line = lines[i]
+                s = line.strip()
+                if s == '</box>':
+                    break
+                if '</box>' in s:
+                    before = line[:line.find('</box>')].strip()
+                    if before:
+                        box_lines.append(before)
+                    break
+                box_lines.append(line)
+                i += 1
+            box_content = '\n'.join(box_lines)
+            # Convert <place> tags within box content
+            box_content = re.sub(
+                r'<place>(.+?)</place>',
+                lambda m: _place_card_html(m.group(1).strip()),
+                box_content
+            )
+            html_parts.append(f'<div class="cta-box">{box_content}</div>')
+            i += 1
+            continue
+        
+        # Place tag: <place>Name</place> — styled place card with Google Maps link
         place_match = re.match(r'^<place>(.+?)</place>$', stripped)
         if place_match:
             if para_lines:
                 html_parts.append('<p>' + ' '.join(para_lines) + '</p>')
                 para_lines = []
-            place_name = place_match.group(1).strip()
-            places_data, _ = load_json('places.json')
-            place_info = None
-            if isinstance(places_data, list):
-                for p in places_data:
-                    if p.get('title', '').lower() == place_name.lower():
-                        place_info = p
-                        break
-            if place_info and place_info.get('googleurl'):
-                gurl = place_info['googleurl']
-                loc = place_info.get('location', '')
-                html_parts.append(
-                    f'<div class=\"place-card\" style=\"background:#f0f7ff;border:1px solid #1E6F9F;border-radius:10px;padding:14px 18px;margin:1.2em 0;display:flex;align-items:center;gap:12px\">'
-                    f'<span style=\"font-size:1.5rem\">📍</span>'
-                    f'<div style=\"flex:1\"><strong style=\"color:#1a2c3e\">{place_name}</strong>'
-                    f'<br><span style=\"font-size:0.85rem;color:#666\">{loc}</span></div>'
-                    f'<a href=\"{gurl}\" target=\"_blank\" rel=\"noopener\" '
-                    f'style=\"background:#1E6F9F;color:white;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:0.85rem;font-weight:600;white-space:nowrap\">🗺 View on Map</a>'
-                    f'</div>'
-                )
-            else:
-                html_parts.append(
-                    f'<div class=\"place-card\" style=\"background:#fff8f0;border:1px dashed #ccc;border-radius:10px;padding:14px 18px;margin:1.2em 0\">'
-                    f'<em style=\"color:#999\">📍 {place_name}</em>'
-                    f'</div>'
-                )
+            html_parts.append(_place_card_html(place_match.group(1).strip()))
             i += 1
             continue
         
@@ -837,7 +876,7 @@ def parse_body_to_html(body_text):
             caption = ''
             if i + 1 < len(lines):
                 next_line = lines[i + 1].strip()
-                if next_line and not next_line.startswith('##') and not next_line.startswith('[img:'):
+                if next_line and not next_line.startswith('##') and not next_line.startswith('#') and not next_line.startswith('[img:') and not next_line.startswith('<box>') and not next_line.startswith('<place>'):
                     caption = next_line
                     i += 1  # consume caption line
             
@@ -850,13 +889,21 @@ def parse_body_to_html(body_text):
             i += 1
             continue
         
-        # Heading
-        if stripped.startswith('## '):
+        # H1 heading — entire rest of line after # becomes the heading
+        if stripped.startswith('#') and not stripped.startswith('##'):
             if para_lines:
                 html_parts.append('<p>' + ' '.join(para_lines) + '</p>')
                 para_lines = []
-            heading_text = stripped[3:].strip()
-            html_parts.append(f'<h2>{heading_text}</h2>')
+            html_parts.append(f'<h1>{stripped[1:]}</h1>')
+            i += 1
+            continue
+        
+        # H2 heading — entire rest of line after ## becomes the heading
+        if stripped.startswith('##'):
+            if para_lines:
+                html_parts.append('<p>' + ' '.join(para_lines) + '</p>')
+                para_lines = []
+            html_parts.append(f'<h2>{stripped[2:]}</h2>')
             i += 1
             continue
         

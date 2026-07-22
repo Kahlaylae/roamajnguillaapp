@@ -768,7 +768,7 @@
       <div class="blog-photo-pool" id="blogPhotoPool">
         <div class="no-photos">📸 Article photos appear here — drag images below to add</div>
       </div>
-      <textarea class="blog-body-editor" id="blogBody" placeholder="## Heading&#10;&#10;Write your article here...&#10;&#10;## Another section&#10;More text goes here.&#10;&#10;[img:photo.jpg]&#10;A caption for the photo&#10;&#10;Raw HTML for embeds works too." oninput="blogPreview()"></textarea>
+      <textarea class="blog-body-editor" id="blogBody" placeholder="# Big Heading&#10;## Section heading&#10;&#10;Write your article here...&#10;&#10;<box>🔥 Special offer or CTA here</box>&#10;&#10;[img:photo.jpg]&#10;A caption for the photo&#10;&#10;Raw HTML for embeds works too." oninput="blogPreview()"></textarea>
       <div class="blog-image-drop" id="blogImageDrop" onclick="document.getElementById('blogImageInput').click()">
         <span class="drop-icon">📸</span>
         Drop images here or click to upload<br><small>Auto-resizes to 500px max</small>
@@ -2612,9 +2612,33 @@ function blogPreview() {
       let cap = '';
       if (i + 1 < lines.length) {
         const nl = lines[i + 1].trim();
-        if (nl && !nl.startsWith('##') && !nl.startsWith('[img:') && !nl.startsWith('<place>')) { cap = nl; i++; }
+        if (nl && !nl.startsWith('##') && !nl.startsWith('#') && !nl.startsWith('[img:') && !nl.startsWith('<place>') && !nl.startsWith('<box>')) { cap = nl; i++; }
       }
       parts.push('<div class="article-image"><img src="/blog-images/' + slug + '/images/' + escapeHtml(fn) + '" alt="' + escapeHtml(cap) + '" loading="lazy" onerror="this.style.opacity=0.3"><span class="image-caption">' + escapeHtml(cap) + '</span></div>');
+    } else if (s.startsWith('<box>')) {
+      if (para.length) { parts.push('<p>' + para.join(' ') + '</p>'); para = []; }
+      // Collect box content across multiple lines
+      var boxLines = [];
+      var rest = s.substring(5).trim(); // content after <box>
+      if (rest) boxLines.push(rest);
+      i++;
+      while (i < lines.length) {
+        var bline = lines[i].trim();
+        if (bline === '</box>') break;
+        if (bline.indexOf('</box>') !== -1) {
+          var before = bline.substring(0, bline.indexOf('</box>')).trim();
+          if (before) boxLines.push(before);
+          break;
+        }
+        boxLines.push(lines[i]);
+        i++;
+      }
+      var boxHtml = boxLines.join('<br>');
+      // Convert <place> tags inside box (simplified inline style)
+      boxHtml = boxHtml.replace(/<place>(.+?)<\/place>/g, function(m, name) {
+        return '<strong style="color:#1E6F9F">📍 ' + escapeHtml(name) + '</strong>';
+      });
+      parts.push('<div class="cta-box" style="background:linear-gradient(135deg,#f0f7ff,#e8f4f8);border:2px solid #1E6F9F;border-radius:12px;padding:18px 22px;margin:1.4em 0;font-size:0.92rem;line-height:1.7">' + boxHtml + '</div>');
     } else if (/^<place>(.+?)<\/place>$/.test(s)) {
       if (para.length) { parts.push('<p>' + para.join(' ') + '</p>'); para = []; }
       const placeName = s.match(/^<place>(.+?)<\/place>$/)[1];
@@ -2635,9 +2659,12 @@ function blogPreview() {
           '<em style="color:#999">📍 ' + escapeHtml(placeName) + '</em>' +
         '</div>');
       }
-    } else if (s.startsWith('## ')) {
+    } else if (s.startsWith('#') && !s.startsWith('##')) {
       if (para.length) { parts.push('<p>' + para.join(' ') + '</p>'); para = []; }
-      parts.push('<h2>' + escapeHtml(s.slice(3)) + '</h2>');
+      parts.push('<h1>' + escapeHtml(s.substring(1)) + '</h1>');
+    } else if (s.startsWith('##')) {
+      if (para.length) { parts.push('<p>' + para.join(' ') + '</p>'); para = []; }
+      parts.push('<h2>' + escapeHtml(s.substring(2)) + '</h2>');
     } else if (/^\s*<(\w+)/.test(s)) {
       if (para.length) { parts.push('<p>' + para.join(' ') + '</p>'); para = []; }
       parts.push(line);
