@@ -637,7 +637,7 @@ def generate_blog_html(slug, headline, subheadline, tag, body_html, date_str):
       </a>
     </div>
   </header>
-  <article>
+  <div class="article">
     <header class="article-header">
       <h1 class="article-title">{escaped_headline}</h1>
       <div class="article-meta">Published on {date_str} by Roam Anguilla Team | <span class="tag">{tag}</span></div>
@@ -646,7 +646,7 @@ def generate_blog_html(slug, headline, subheadline, tag, body_html, date_str):
     <div class="article-content">
 {body_html}
     </div>
-  </article>
+  </div>
   <div class="comments-section">
     <h3>Join the Conversation</h3>
     <div id="disqus_thread"></div>
