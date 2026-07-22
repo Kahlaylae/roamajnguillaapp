@@ -2761,7 +2761,7 @@ async function blogSave() {
   const slug = document.getElementById('blogSlug').value.trim();
   const tag = document.getElementById('blogTag').value;
   const body = document.getElementById('blogBody').value;
-  const heroImage = blogHeroFile || 'hero.png';
+  const heroImage = blogHeroFile || 'hero.jpg';
 
   if (!headline) { alert('Headline is required.'); return; }
   if (!slug) { alert('Slug is required.'); return; }

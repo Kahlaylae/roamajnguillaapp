@@ -558,9 +558,9 @@ def slugify(text):
 
 
 def find_hero_image(slug):
-    """Find the hero image for a blog article. Checks hero.png, hero.jpg, hero.webp."""
+    """Find the hero image for a blog article. Checks hero.jpg, hero.jpeg, hero.webp, hero.png."""
     blog_path = os.path.join(BLOG_DIR, slug)
-    for ext in ('.png', '.jpg', '.jpeg', '.webp'):
+    for ext in ('.jpg', '.jpeg', '.webp', '.png'):
         hero_path = os.path.join(blog_path, f'hero{ext}')
         if os.path.exists(hero_path):
             return f'hero{ext}'
@@ -568,13 +568,13 @@ def find_hero_image(slug):
         hero_path2 = os.path.join(blog_path, 'images', f'hero{ext}')
         if os.path.exists(hero_path2):
             return f'images/hero{ext}'
-    return 'hero.png'  # default
+    return 'images/hero.jpg'  # default
 
 
 def has_hero_image(slug):
     """Check if a blog article has a hero image."""
     blog_path = os.path.join(BLOG_DIR, slug)
-    for ext in ('.png', '.jpg', '.jpeg', '.webp'):
+    for ext in ('.jpg', '.jpeg', '.webp', '.png'):
         if os.path.exists(os.path.join(blog_path, f'hero{ext}')):
             return True
         if os.path.exists(os.path.join(blog_path, 'images', f'hero{ext}')):
