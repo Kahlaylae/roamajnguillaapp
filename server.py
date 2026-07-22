@@ -603,6 +603,7 @@ def generate_blog_html(slug, headline, subheadline, tag, body_html, date_str):
   <link rel="canonical" href="https://roamaxa.app/blog/{slug}/">
   <link rel="icon" type="image/webp" href="/titlelogo.webp" sizes="25x25">
   <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3098807263908139" crossorigin="anonymous"></script>
   <script type="application/ld+json">
   {{
@@ -617,10 +618,25 @@ def generate_blog_html(slug, headline, subheadline, tag, body_html, date_str):
   </script>
 </head>
 <body>
-  <nav class="breadcrumb-nav">
-    <a href="/#blog">🏠 Main App</a> › <a href="/blog/">📝 Blog</a> › <span>{escaped_headline}</span>
-  </nav>
-  <a href="/blog/" class="back-link">← Back to Blog</a>
+  <header class="blog-header">
+    <div class="blog-header-inner">
+      <div class="logo">
+        <a href="/" style="text-decoration:none;display:flex;align-items:center;gap:0.6rem;">
+          <img src="/assets/titlelogo.webp" alt="" style="height:38px;width:auto;" />
+          <h1>Roam <span>Anguilla</span></h1>
+        </a>
+      </div>
+      <nav class="header-nav" aria-label="Main navigation">
+        <a href="/blog" class="nav-link active">Blog</a>
+        <a href="/events.html" class="nav-link">Events</a>
+        <a href="/places.html" class="nav-link">Places</a>
+        <a href="/about.html" class="nav-link">About</a>
+      </nav>
+      <a href="/download.html" class="get-app-link">
+        <i class="fas fa-mobile-alt"></i> Get the App
+      </a>
+    </div>
+  </header>
   <article>
     <header class="article-header">
       <h1 class="article-title">{escaped_headline}</h1>
@@ -631,8 +647,8 @@ def generate_blog_html(slug, headline, subheadline, tag, body_html, date_str):
 {body_html}
     </div>
   </article>
-  <div class="comments-section" style="background:white;padding:2rem;border-radius:12px;box-shadow:0 2px 10px rgba(0,0,0,0.1);margin-top:2rem">
-    <h3 style="color:#1E6F9F;margin-bottom:1.5rem;font-size:1.5rem">Join the Conversation</h3>
+  <div class="comments-section">
+    <h3>Join the Conversation</h3>
     <div id="disqus_thread"></div>
     <script>
       var disqus_config = function () {{
